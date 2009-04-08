@@ -1,0 +1,2410 @@
+2007-01-16  Erik Grinaker <erikg@codepoet.no>
+
+	* [r639] ., NEWS, configure.ac, po/cs.po, src/lib/config.py.in,
+	  src/revelation-applet.in: tagged version 0.4.11
+
+2007-01-13  Erik Grinaker <erikg@codepoet.no>
+
+	* [r622] branches/revelation-bugfix-0.4.x: created bugfix-branch
+	  for 0.4.x series
+
+2007-01-11  Erik Grinaker <erikg@codepoet.no>
+
+	* [r610] trunk/NEWS, trunk/configure.ac,
+	  trunk/src/lib/config.py.in: bumped version number to 0.4.9
+
+	* [r609] trunk/HACKING: added HACKING file
+
+	* [r608] trunk/data/mime: added built revelation.desktop to
+	  svn:ignore
+
+	* [r607] trunk/data/mime/Makefile.am,
+	  trunk/data/mime/revelation.desktop,
+	  trunk/data/mime/revelation.desktop.in: generate
+	  revelation.desktop with proper version from autoconf
+
+	* [r606] trunk/src/lib/config.py.in: removed version number from
+	  comments
+
+2007-01-04  Erik Grinaker <erikg@codepoet.no>
+
+	* [r605] trunk/NEWS, trunk/po/de.po: updated german translation
+	  [Daniel Schindler]
+
+2007-01-03  Erik Grinaker <erikg@codepoet.no>
+
+	* [r602] trunk/data/mime/revelation.desktop,
+	  trunk/src/bundle/__init__.py, trunk/src/lib/__init__.py,
+	  trunk/src/lib/data.py, trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/base.py,
+	  trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/datahandler/gpass.py,
+	  trunk/src/lib/datahandler/netrc.py,
+	  trunk/src/lib/datahandler/pwsafe.py,
+	  trunk/src/lib/datahandler/rvl.py,
+	  trunk/src/lib/datahandler/splashid.py,
+	  trunk/src/lib/datahandler/text.py,
+	  trunk/src/lib/datahandler/xhtml.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/entry.py, trunk/src/lib/io.py, trunk/src/lib/ui.py,
+	  trunk/src/lib/util.py, trunk/src/revelation-applet.in,
+	  trunk/src/revelation.in: removed version number for source file
+	  headers
+
+	* [r601] trunk/NEWS, trunk/configure.ac, trunk/po/cs.po: added
+	  czech translation [Zbyněk Mrkvička]
+
+2007-01-01  Erik Grinaker <erikg@codepoet.no>
+
+	* [r600] trunk/NEWS, trunk/src/lib/Makefile.am: don't include built
+	  config.py during make dist
+
+	* [r599] trunk/NEWS, trunk/po/POTFILES.in: set utf-8 encoding for
+	  POTFILES
+
+	* [r598] trunk/src/lib/datahandler/netrc.py,
+	  trunk/src/lib/datahandler/rvl.py,
+	  trunk/src/lib/datahandler/splashid.py: changed some triple-quoted
+	  strings to normal quotes to stop intltool from nagging
+
+	* [r597] trunk/NEWS, trunk/po/POTFILES.skip: added POTFILES.skip to
+	  skip translation for certain files
+
+	* [r596] trunk/NEWS, trunk/src/lib/entry.py: fixed translation of
+	  field names and tooltips
+
+	* [r595] trunk/NEWS: set correct release date for 0.4.8 in NEWS
+
+2006-12-30  Erik Grinaker <erikg@codepoet.no>
+
+	* [r592] trunk/src/revelation.in: removed debug output
+
+	* [r591] trunk/Makefile.am: include intltool-commands in dist
+	  tarball
+
+	* [r589] trunk/po/Makefile.in.in: don't include CHangeLog in
+	  distfiles for po dir
+
+	* [r588] trunk/NEWS, trunk/src/lib/ui.py: use new icon for ftp
+	  accounts (old one removed from gnome-icon-theme)
+
+	* [r587] trunk/configure.ac, trunk/src/bundle/__init__.py,
+	  trunk/src/lib/__init__.py, trunk/src/lib/config.py.in,
+	  trunk/src/lib/data.py, trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/base.py,
+	  trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/datahandler/gpass.py,
+	  trunk/src/lib/datahandler/netrc.py,
+	  trunk/src/lib/datahandler/pwsafe.py,
+	  trunk/src/lib/datahandler/rvl.py,
+	  trunk/src/lib/datahandler/splashid.py,
+	  trunk/src/lib/datahandler/text.py,
+	  trunk/src/lib/datahandler/xhtml.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/entry.py, trunk/src/lib/io.py, trunk/src/lib/ui.py,
+	  trunk/src/lib/util.py, trunk/src/revelation-applet.in,
+	  trunk/src/revelation.in: bumped version to 0.4.8
+
+	* [r586] trunk/TODO: updated TODO
+
+	* [r585] trunk/NEWS, trunk/src/lib/ui.py, trunk/src/revelation.in:
+	  fixed crash when doubleclicking tree with no entry selected
+
+2006-12-29  Erik Grinaker <erikg@codepoet.no>
+
+	* [r584] trunk/NEWS, trunk/config.guess, trunk/config.sub: added
+	  missing config.guess and config.sub autoconf files
+
+2006-12-12  Erik Grinaker <erikg@codepoet.no>
+
+	* [r582] trunk/src/lib/datahandler/splashid.py: properly import
+	  notes for SplashID files
+
+	* [r581] trunk/NEWS, trunk/src/lib/datahandler/Makefile.am,
+	  trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/splashid.py: added SplashID CSV import
+	  [Devan Goodwin]
+
+2006-12-03  Erik Grinaker <erikg@codepoet.no>
+
+	* [r580] trunk/src/lib/ui.py: use 16x16 instead of 18x18 for
+	  treeview icons
+
+	* [r579] trunk/src/lib/datahandler/rvl.py,
+	  trunk/src/lib/datahandler/xhtml.py, trunk/src/lib/entry.py,
+	  trunk/src/lib/ui.py: set up entry data during class
+	  instantiation, so we can set up gettext before the texts are
+	  created
+
+	* [r578] trunk/src/lib/ui.py: use 4 pixel difference as threshold
+	  for acceptable icon sizes for stock icons
+
+	* [r577] trunk/src/lib/ui.py: only load stock icons once for each
+	  size
+
+	* [r576] trunk/src/revelation-applet.in: use
+	  ItemFactory.get_pixbuf() in applet
+
+	* [r575] trunk/NEWS, trunk/src/lib/ui.py, trunk/src/revelation.in:
+	  scale icons with improper sizes
+
+	* [r574] trunk/src/lib/ui.py, trunk/src/revelation.in: improved
+	  stock icon loading
+
+	* [r573] trunk/src/lib/ui.py: define stock icons and items outside
+	  the ui.ItemFactory() class
+
+	* [r572] trunk/configure.ac, trunk/data/icons/Makefile.am,
+	  trunk/data/icons/scalable, trunk/src/lib/ui.py: use the default
+	  GNOME stock_folder icon for icon entries, and remove the fallback
+	  icons
+
+	* [r571] trunk/NEWS, trunk/TODO, trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/datahandler/gpass.py,
+	  trunk/src/lib/datahandler/pwsafe.py, trunk/src/lib/entry.py:
+	  moved convert_entry_generic() to the Entry.convert_generic()
+	  method
+
+	* [r570] trunk/src/lib/dialog.py: properly close about dialog
+
+	* [r569] trunk/configure.ac, trunk/src/Makefile.am,
+	  trunk/src/bundle, trunk/src/bundle/Makefile.am,
+	  trunk/src/lib/Makefile.am, trunk/src/lib/bundle: moved bundle dir
+	  from src/lib/ to src/
+
+	* [r568] trunk/NEWS, trunk/configure.ac, trunk/src/lib/Makefile.am,
+	  trunk/src/lib/bundle, trunk/src/lib/bundle/AfSplitter.py,
+	  trunk/src/lib/bundle/Makefile.am,
+	  trunk/src/lib/bundle/PBKDFv2.py,
+	  trunk/src/lib/bundle/__init__.py, trunk/src/lib/bundle/luks.py,
+	  trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/rvl.py: added LUKS file import/export
+	  [John Lenz]
+
+	* [r567] trunk/configure.ac: removed mman from configure script
+
+	* [r566] trunk/src/wrap/Makefile.am: removed mman from the makefile
+
+	* [r565] trunk/NEWS, trunk/src/revelation-applet.in,
+	  trunk/src/revelation.in, trunk/src/wrap/mman: remove mlocking due
+	  to crashes
+
+2006-10-23  Erik Grinaker <erikg@codepoet.no>
+
+	* [r564] trunk/NEWS, trunk/configure.ac, trunk/po/zh.po: added
+	  chinese translation [Dancefire]
+
+	* [r563] trunk/data/mime/revelation.desktop: added french
+	  translations to desktop file [Gilles Accad]
+
+	* [r562] trunk/NEWS, trunk/TODO, trunk/configure.ac,
+	  trunk/po/sv.po: added swedish translation [Daniel Nylander]
+
+2006-09-12  Erik Grinaker <erikg@codepoet.no>
+
+	* [r561] trunk/NEWS, trunk/TODO, trunk/configure.ac,
+	  trunk/po/fr.po: added french translation [Gilles Accad]
+
+2006-07-23  Erik Grinaker <erikg@codepoet.no>
+
+	* [r560] trunk/NEWS, trunk/configure.ac, trunk/po/de.po: added
+	  German translation [Christian Sagmueller]
+
+2006-07-22  Erik Grinaker <erikg@codepoet.no>
+
+	* [r559] trunk/configure.ac, trunk/po/nb.po: removed incomplete nb
+	  translation
+
+	* [r558] trunk/src/lib/ui.py: don't use gettext on empty strings
+
+	* [r557] trunk/po/Makefile.in.in: another missing intltool build
+	  file
+
+	* [r556] trunk, trunk/intltool-extract.in, trunk/intltool-merge.in,
+	  trunk/intltool-update.in, trunk/po: added missing intltool build
+	  files
+
+	* [r555] trunk: ignore autom4te.cache dir
+
+	* [r554] trunk/po/POTFILES.in: updated POTFILES list
+
+	* [r553] trunk/src/lib/datahandler/xhtml.py: correctly import
+	  gettext in xhtml datahandler
+
+	* [r552] trunk/src/lib/dialog.py: fixed invalid imagelabel use of
+	  Alignment.set() in password checker
+
+	* [r551] trunk/data/ui/Makefile.am, trunk/data/ui/actions.xml,
+	  trunk/src/lib/ui.py, trunk/src/revelation.in: moved actions from
+	  xml file to sourcecode, and used gettext on action texts
+
+	* [r550] trunk/src/lib/datahandler/rvl.py: removed workaround for
+	  invalid encoding in old files
+
+	* [r549] trunk/src/lib/config.py.in,
+	  trunk/src/lib/datahandler/gpass.py,
+	  trunk/src/lib/datahandler/xhtml.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/entry.py, trunk/src/lib/ui.py,
+	  trunk/src/lib/util.py, trunk/src/revelation-applet.in,
+	  trunk/src/revelation.in: use gettext for all text strings
+
+	* [r548] trunk, trunk/Makefile.am, trunk/NEWS, trunk/TODO,
+	  trunk/acinclude.m4, trunk/configure.ac, trunk/po,
+	  trunk/po/POTFILES.in, trunk/po/nb.po, trunk/src/lib/Makefile.am,
+	  trunk/src/lib/config.py.in, trunk/src/revelation.in: initial
+	  translation infrastructure
+
+	* [r547] trunk/data/ui/menubar.xml, trunk/data/ui/popup-tree.xml:
+	  improved entry and popup menu layouts
+
+	* [r546] trunk/src/lib/ui.py, trunk/src/revelation.in: improved the
+	  EntryView
+
+2006-07-21  Erik Grinaker <erikg@codepoet.no>
+
+	* [r545] trunk/src/revelation.in: fix broken password handling
+	  during export
+
+	* [r544] trunk/src/lib/io.py: fix deactivation of file change
+	  monitoring while saving
+
+	* [r543] trunk/NEWS, trunk/src/lib/dialog.py: only show Revelation
+	  files by default in file choosers
+
+	* [r542] trunk/src/revelation.in: improved handling of errors
+	  during file saving (fixes bug #175)
+
+	* [r541] trunk/src/revelation-applet.in: only mlock future pages in
+	  applet
+
+2006-07-20  Erik Grinaker <erikg@codepoet.no>
+
+	* [r540] trunk/src/revelation.in: only mlock future pages, not
+	  current (was causing random crashes)
+
+2006-06-16  Erik Grinaker <erikg@codepoet.no>
+
+	* [r539] trunk/src/lib/dialog.py: don't use missing
+	  ui.ICON_SIZE_DIALOG constant
+
+2006-06-12  Erik Grinaker <erikg@codepoet.no>
+
+	* [r538] trunk/NEWS, trunk/TODO, trunk/data/gconf/Makefile.am,
+	  trunk/src/lib/dialog.py: make dialogs HIG-compliant
+
+2006-06-11  Erik Grinaker <erikg@codepoet.no>
+
+	* [r537] trunk/TODO: updated TODO
+
+	* [r536] trunk/ChangeLog, trunk/Makefile.am, trunk/NEWS,
+	  trunk/authors.xml: generate ChangeLog from subversion log during
+	  make dist
+
+	* [r535] trunk/ChangeLog, trunk/Makefile.am, trunk/NEWS,
+	  trunk/data/bonobo/Makefile.am, trunk/data/cracklib/Makefile.am,
+	  trunk/data/gconf/Makefile.am, trunk/data/icons/16x16/Makefile.am,
+	  trunk/data/icons/24x24/Makefile.am,
+	  trunk/data/icons/32x32/Makefile.am,
+	  trunk/data/icons/48x48/Makefile.am,
+	  trunk/data/icons/scalable/Makefile.am,
+	  trunk/data/mime/Makefile.am, trunk/data/ui/Makefile.am,
+	  trunk/src/Makefile.am, trunk/src/lib/Makefile.am,
+	  trunk/src/wrap/crack/Makefile.am: use make dist to build releases
+
+	* [r534] trunk, trunk/data, trunk/data/bonobo, trunk/data/cracklib,
+	  trunk/data/gconf, trunk/data/icons, trunk/data/icons/16x16,
+	  trunk/data/icons/24x24, trunk/data/icons/32x32,
+	  trunk/data/icons/48x48, trunk/data/icons/scalable,
+	  trunk/data/mime, trunk/data/ui, trunk/src, trunk/src/lib,
+	  trunk/src/lib/datahandler, trunk/src/wrap, trunk/src/wrap/crack,
+	  trunk/src/wrap/mman: set svn:ignore property for built files
+
+	* [r533] trunk/ChangeLog, trunk/data/ui/actions.xml,
+	  trunk/data/ui/menubar.xml: added new entry menu
+
+2006-06-02  Erik Grinaker <erikg@codepoet.no>
+
+	* [r532] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/ui.py: don't
+	  crash on missing theme icons [Wade Berrier]
+
+2006-03-08  Erik Grinaker <erikg@codepoet.no>
+
+	* [r529] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/data/gconf/revelation.schemas, trunk/src/lib/dialog.py,
+	  trunk/src/lib/ui.py, trunk/src/revelation.in: a couple of
+	  password improvements
+
+2006-03-07  Erik Grinaker <erikg@codepoet.no>
+
+	* [r528] trunk/TODO: updated TODO
+
+2006-02-19  Erik Grinaker <erikg@codepoet.no>
+
+	* [r527] trunk/TODO: updated TODO
+
+2006-02-15  Erik Grinaker <erikg@codepoet.no>
+
+	* [r525] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/ui.py: handle errors while loading icons
+
+2006-02-10  Erik Grinaker <erikg@codepoet.no>
+
+	* [r510] trunk/ChangeLog, trunk/src/lib/config.py.in,
+	  trunk/src/revelation.in: removed workarounds for bugs in older
+	  versions of pygtk/gnome-python
+
+	* [r509] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/dialog.py, trunk/src/lib/ui.py,
+	  trunk/src/revelation.in: use
+	  gtk.FileChooser.set_do_overwrite_confirmation()
+
+	* [r508] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/dialog.py,
+	  trunk/src/lib/ui.py, trunk/src/revelation.in: added note to lock
+	  dialog when quit disabled due to unsaved changes
+
+	* [r507] trunk/ChangeLog, trunk/NEWS, trunk/acinclude.m4,
+	  trunk/configure.ac, trunk/src/revelation-applet.in,
+	  trunk/src/revelation.in, trunk/src/wrap/Makefile.am,
+	  trunk/src/wrap/mman, trunk/src/wrap/mman/Makefile.am,
+	  trunk/src/wrap/mman/mman.c: added mman module, and call
+	  mlockall() to ensure memory is never swapped to disk
+
+2006-02-08  Erik Grinaker <erikg@codepoet.no>
+
+	* [r494] trunk/ChangeLog, trunk/src/lib/config.py.in: use GPL
+	  notice instead of full GPL in about dialog
+
+	* [r493] trunk/ChangeLog, trunk/NEWS,
+	  trunk/data/gconf/revelation.schemas, trunk/src/lib/dialog.py,
+	  trunk/src/lib/ui.py, trunk/src/lib/util.py: password generator
+	  now always avoids ambiguous characters
+
+	* [r492] trunk/ChangeLog, trunk/src/lib/dialog.py: set about dialog
+	  as transient of parent window
+
+	* [r491] trunk/ChangeLog, trunk/NEWS, trunk/src/revelation.in:
+	  cleaned up preferences dialog
+
+2006-02-06  Erik Grinaker <erikg@codepoet.no>
+
+	* [r490] trunk/ChangeLog, trunk/src/lib/ui.py: make file buttons
+	  work for remote files
+
+	* [r489] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/io.py, trunk/src/lib/ui.py,
+	  trunk/src/revelation-applet.in, trunk/src/revelation.in: use
+	  gtk.FileChooserButton for selecting files
+
+	* [r488] trunk/README: fixed wrong gtk dependency version
+
+	* [r487] trunk/ChangeLog, trunk/NEWS, trunk/README,
+	  trunk/acinclude.m4, trunk/configure.ac: depend on pygtk 2.8 and
+	  gnome-python 2.10
+
+	* [r486] trunk/ChangeLog, trunk/NEWS, trunk/acinclude.m4,
+	  trunk/configure.ac, trunk/src/lib/__init__.py,
+	  trunk/src/revelation-applet.in, trunk/src/revelation.in,
+	  trunk/src/wrap/Makefile.am, trunk/src/wrap/gnomemisc: use
+	  gnomeapplet.Applet.request_focus() and removed gnomemisc module
+
+	* [r485] trunk/ChangeLog, trunk/TODO, trunk/src/revelation.in,
+	  trunk/src/wrap/gnomemisc/gnomemisc.defs,
+	  trunk/src/wrap/gnomemisc/gnomemisc.override: use
+	  gnome.ui.authentication_manager_init() instead of wrapping it
+
+	* [r484] trunk/ChangeLog, trunk/NEWS, trunk/data/ui/actions.xml,
+	  trunk/data/ui/menubar.xml, trunk/src/lib/config.py.in,
+	  trunk/src/lib/dialog.py, trunk/src/revelation-applet.in,
+	  trunk/src/revelation.in: use gtk.AboutDialog for about dialogs
+
+	* [r483] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/dialog.py,
+	  trunk/src/revelation.in: moved preference dialog from dialog
+	  module to main script
+
+	* [r482] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/io.py,
+	  trunk/src/revelation-applet.in,
+	  trunk/src/wrap/gnomemisc/gnomemisc.override: don't use deprecated
+	  gnome-python modules
+
+	* [r480] trunk/ChangeLog, trunk/NEWS: set release date
+
+	* [r479] trunk/NEWS: updated NEWS
+
+2006-02-03  Erik Grinaker <erikg@codepoet.no>
+
+	* [r478] trunk/ChangeLog, trunk/NEWS,
+	  trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/base.py,
+	  trunk/src/revelation-applet.in: ignore errors when automatically
+	  reloading file in applet
+
+2006-02-02  Erik Grinaker <erikg@codepoet.no>
+
+	* [r477] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/io.py: don't
+	  use gnomevfs.URI.is_local, stats all filesystems (hangs on
+	  missing network mounts)
+
+	* [r476] trunk/ChangeLog, trunk/configure.ac,
+	  trunk/data/mime/revelation.desktop, trunk/src/lib/__init__.py,
+	  trunk/src/lib/config.py.in, trunk/src/lib/data.py,
+	  trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/base.py,
+	  trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/datahandler/gpass.py,
+	  trunk/src/lib/datahandler/netrc.py,
+	  trunk/src/lib/datahandler/pwsafe.py,
+	  trunk/src/lib/datahandler/rvl.py,
+	  trunk/src/lib/datahandler/text.py,
+	  trunk/src/lib/datahandler/xhtml.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/entry.py, trunk/src/lib/io.py, trunk/src/lib/ui.py,
+	  trunk/src/lib/util.py, trunk/src/revelation-applet.in,
+	  trunk/src/revelation.in: bumped version number to 0.4.7
+
+	* [r475] trunk/ChangeLog, trunk/NEWS, trunk/py-compile: build
+	  pyc/pyo files correctly when using DESTDIR with make install
+
+	* [r474] trunk/ChangeLog, trunk/README: added dependencies to
+	  README
+
+2006-01-31  Erik Grinaker <erikg@codepoet.no>
+
+	* [r469] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/ui.py: don't
+	  crash when unlocking file
+
+2006-01-26  Erik Grinaker <erikg@codepoet.no>
+
+	* [r467] trunk/ChangeLog, trunk/src/lib/ui.py: fixed some rendering
+	  issues with the new password entry
+
+	* [r464] trunk/ChangeLog, trunk/NEWS: set release dates
+
+2006-01-25  Erik Grinaker <erikg@codepoet.no>
+
+	* [r463] trunk/TODO: updated TODO
+
+	* [r462] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/io.py,
+	  trunk/src/lib/ui.py: ~ in filenames will now be expanded to
+	  homedir
+
+2006-01-24  Erik Grinaker <erikg@codepoet.no>
+
+	* [r461] trunk/ChangeLog, trunk/src/lib/ui.py: make password entry
+	  min 16px to avoid resize on icon display
+
+2006-01-22  Erik Grinaker <erikg@codepoet.no>
+
+	* [r460] trunk/ChangeLog, trunk/src/lib/ui.py: fixed some issues
+	  with the new password entry
+
+	* [r459] trunk/ChangeLog, trunk/TODO, trunk/src/lib/util.py:
+	  improved the password checking
+
+	* [r458] trunk/ChangeLog, trunk/TODO, trunk/src/lib/util.py:
+	  rewrote the password generator
+
+	* [r457] trunk/ChangeLog, trunk/src/lib/util.py: minor improvements
+	  to password generator
+
+	* [r456] trunk/ChangeLog, trunk/configure.ac,
+	  trunk/data/mime/revelation.desktop, trunk/src/lib/__init__.py,
+	  trunk/src/lib/config.py.in, trunk/src/lib/data.py,
+	  trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/base.py,
+	  trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/datahandler/gpass.py,
+	  trunk/src/lib/datahandler/netrc.py,
+	  trunk/src/lib/datahandler/pwsafe.py,
+	  trunk/src/lib/datahandler/rvl.py,
+	  trunk/src/lib/datahandler/text.py,
+	  trunk/src/lib/datahandler/xhtml.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/entry.py, trunk/src/lib/io.py, trunk/src/lib/ui.py,
+	  trunk/src/lib/util.py, trunk/src/revelation-applet.in,
+	  trunk/src/revelation.in: bumped version number to 0.4.6
+
+2006-01-21  Erik Grinaker <erikg@codepoet.no>
+
+	* [r455] trunk/TODO: updated TODO
+
+	* [r454] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/data/gconf/revelation.schemas, trunk/data/ui/actions.xml,
+	  trunk/src/lib/dialog.py, trunk/src/lib/ui.py,
+	  trunk/src/revelation.in: improved the searchbar, and use it
+	  instead of find dialog
+
+	* [r453] trunk/src/lib/util.py: do password entropy and palindrome
+	  tests after strength test
+
+	* [r452] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/util.py: added Shannon entropy test to password
+	  checker
+
+	* [r451] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/dialog.py,
+	  trunk/src/lib/util.py: minor improvements to password checking
+
+	* [r450] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/ui.py: use stock gtk icon sizes instead of custom
+	  ones
+
+	* [r449] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/dialog.py, trunk/src/lib/ui.py: use icons instead
+	  of colors in password entries to indicate strength
+
+2006-01-20  Erik Grinaker <erikg@codepoet.no>
+
+	* [r448] trunk/AUTHORS: changed format of AUTHORS file
+
+	* [r447] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/dialog.py, trunk/src/lib/ui.py: changed default
+	  file format for export to XML
+
+	* [r446] trunk/ChangeLog, trunk/NEWS,
+	  trunk/src/lib/datahandler/pwsafe.py: fix crash in Password Safe
+	  import/export with fields longer than 256 chars
+
+	* [r445] trunk/TODO: updated TODO
+
+	* [r444] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/ui.py, trunk/src/lib/util.py: strip xml entities
+	  from password on clipboard copy or drag/drop
+
+2006-01-19  Erik Grinaker <erikg@codepoet.no>
+
+	* [r443] trunk/ChangeLog, trunk/NEWS, trunk/src/revelation.in:
+	  fixed drag and drop undo/redo crashes
+
+2006-01-18  Erik Grinaker <erikg@codepoet.no>
+
+	* [r442] trunk/ChangeLog, trunk/NEWS, trunk/src/Makefile.am,
+	  trunk/src/lib/Makefile.am, trunk/src/revelation-applet.in: use
+	  full path when starting Revelation from applet
+
+	* [r441] trunk/ChangeLog, trunk/src/revelation-applet.in: made the
+	  applet search entry slightly smaller
+
+	* [r440] trunk/ChangeLog, trunk/NEWS,
+	  trunk/data/gconf/revelation-applet.schemas,
+	  trunk/src/revelation-applet.in: new applet option to show/hide
+	  search entry [Andreas Sliwka]
+
+	* [r439] trunk/ChangeLog, trunk/NEWS,
+	  trunk/data/gconf/revelation-applet.schemas: use correct key path
+	  for applet show_passwords gconf key
+
+	* [r438] trunk/ChangeLog, trunk/src/lib/__init__.py,
+	  trunk/src/lib/config.py.in, trunk/src/lib/data.py,
+	  trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/base.py,
+	  trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/datahandler/gpass.py,
+	  trunk/src/lib/datahandler/netrc.py,
+	  trunk/src/lib/datahandler/pwsafe.py,
+	  trunk/src/lib/datahandler/rvl.py,
+	  trunk/src/lib/datahandler/text.py,
+	  trunk/src/lib/datahandler/xhtml.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/entry.py, trunk/src/lib/io.py, trunk/src/lib/ui.py,
+	  trunk/src/lib/util.py, trunk/src/revelation-applet.in,
+	  trunk/src/revelation.in: updated the copyright period
+
+2006-01-14  Erik Grinaker <erikg@codepoet.no>
+
+	* [r437] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/dialog.py,
+	  trunk/src/lib/ui.py: changed button "Edit" to "Update" in edit
+	  entry dialog
+
+	* [r436] trunk/ChangeLog, trunk/NEWS,
+	  trunk/data/bonobo/Makefile.am: remove
+	  GNOME_RevelationApplet.server during make clean
+
+	* [r435] trunk/ChangeLog, trunk/NEWS, trunk/acinclude.m4,
+	  trunk/configure.ac: don't initialize python modules during
+	  configure checks
+
+2005-08-25  Erik Grinaker <erikg@codepoet.no>
+
+	* [r433] trunk/ChangeLog, trunk/NEWS, trunk/TODO: set release date
+
+	* [r432] trunk/src/revelation-applet.in: tweaked 64-bit crash fix
+
+2005-08-24  Erik Grinaker <erikg@codepoet.no>
+
+	* [r431] trunk/ChangeLog, trunk/NEWS,
+	  trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/pwsafe.py: added MyPasswordSafe
+	  import/export for old file format
+
+	* [r430] trunk/ChangeLog, trunk/NEWS,
+	  trunk/src/lib/datahandler/gpass.py: fix a few issues with GPass
+	  0.4.x importer
+
+	* [r429] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/datahandler/gpass.py: added GPass 0.5.x export
+
+2005-08-23  Erik Grinaker <erikg@codepoet.no>
+
+	* [r428] trunk/ChangeLog, trunk/NEWS,
+	  trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/gpass.py: added GPass 0.5.x import
+
+	* [r427] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/data/bonobo/GNOME_RevelationApplet.server.in,
+	  trunk/src/revelation-applet.in: improved the applet name and
+	  description
+
+	* [r426] trunk/ChangeLog, trunk/NEWS, trunk/configure.ac: check for
+	  necessary python modules at configure-time
+
+	* [r425] trunk/ChangeLog, trunk/NEWS,
+	  trunk/src/wrap/gnomemisc/gnomemiscmodule.c: more informative
+	  error messages for gnomemisc module errors
+
+	* [r424] trunk/src/revelation.in: removed hash sign to avoid
+	  encoding warnings on some systems
+
+	* [r423] trunk/ChangeLog, trunk/NEWS: tiny changelog tweak
+
+	* [r422] trunk/ChangeLog, trunk/NEWS,
+	  trunk/src/revelation-applet.in, trunk/src/revelation.in: fix
+	  crashes in applet and with drag/drop on 64-bit systems
+
+2005-08-22  Erik Grinaker <erikg@codepoet.no>
+
+	* [r421] trunk/ChangeLog, trunk/NEWS,
+	  trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/pwsafe.py: added MyPasswordSafe
+	  import/export
+
+	* [r420] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/pwsafe.py: added Password Gorilla
+	  import/export
+
+	* [r419] trunk/TODO, trunk/src/lib/dialog.py: trimmed labels for
+	  doubleclick settings
+
+	* [r418] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/pwsafe.py: added Password Safe 2.x
+	  import/export
+
+	* [r417] trunk/ChangeLog, trunk/NEWS,
+	  trunk/src/lib/datahandler/pwsafe.py: added Password Safe 1.x
+	  exporter
+
+	* [r416] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/datahandler/Makefile.am,
+	  trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/pwsafe.py: added Password Safe 1.x
+	  importer
+
+2005-08-17  Erik Grinaker <erikg@codepoet.no>
+
+	* [r415] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/data.py, trunk/src/lib/util.py: fix unicode-issues
+
+	* [r414] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/wrap/gnomemisc/Makefile.am: don't use unneeded
+	  defsfiles when building gnomemisc module
+
+	* [r413] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/data/gconf/revelation-applet.schemas,
+	  trunk/src/revelation-applet.in: default lock timeout for applet
+	  set to 10 minutes
+
+2005-08-09  Erik Grinaker <erikg@codepoet.no>
+
+	* [r412] trunk/ChangeLog, trunk/NEWS, trunk/configure.ac,
+	  trunk/data/mime/revelation.desktop, trunk/src/lib/__init__.py,
+	  trunk/src/lib/config.py.in, trunk/src/lib/data.py,
+	  trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/base.py,
+	  trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/datahandler/gpass.py,
+	  trunk/src/lib/datahandler/netrc.py,
+	  trunk/src/lib/datahandler/rvl.py,
+	  trunk/src/lib/datahandler/text.py,
+	  trunk/src/lib/datahandler/xhtml.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/entry.py, trunk/src/lib/io.py, trunk/src/lib/ui.py,
+	  trunk/src/lib/util.py, trunk/src/revelation-applet.in,
+	  trunk/src/revelation.in: bumped version number
+
+	* [r411] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/data/mime/revelation.xml, trunk/src/lib/datahandler/rvl.py:
+	  fix incorrect magic string in MIME-type entry
+
+2005-08-06  Erik Grinaker <erikg@codepoet.no>
+
+	* [r409] trunk/ChangeLog, trunk/NEWS: set release date
+
+	* [r408] trunk/src/revelation-applet.in: request focus on search
+	  fail
+
+	* [r407] trunk/ChangeLog, trunk/NEWS, trunk/src/revelation.in:
+	  clear gconf cache before re-checking config values
+
+	* [r406] trunk/src/revelation-applet.in: don't select applet entry
+	  content when focused, to avoid overwriting clipboard
+
+	* [r405] trunk/src/lib/config.py.in: changed release name
+
+	* [r404] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/config.py.in:
+	  return correct status code for config schema install
+
+	* [r403] trunk/TODO: updated TODO
+
+	* [r402] trunk/ChangeLog, trunk/src/revelation-applet.in,
+	  trunk/src/wrap/gnomemisc/gnomemisc.defs,
+	  trunk/src/wrap/gnomemisc/gnomemisc.override: more applet focus
+	  tweaks, and fixed conditional focus wrapping
+
+	* [r401] trunk/ChangeLog, trunk/acinclude.m4, trunk/configure.ac,
+	  trunk/src/revelation-applet.in,
+	  trunk/src/wrap/gnomemisc/Makefile.am,
+	  trunk/src/wrap/gnomemisc/gnomemisc.defs,
+	  trunk/src/wrap/gnomemisc/gnomemisc.override: made wrapping of
+	  panel_applet_request_focus() conditional
+
+	* [r400] trunk/ChangeLog, trunk/src/Makefile.am,
+	  trunk/src/revelation-applet.in, trunk/src/revelation.in: use
+	  pyexecdir instead of pythondir in applet
+
+	* [r399] trunk/ChangeLog, trunk/NEWS, trunk/acinclude.m4: properly
+	  quote autoconf macro names
+
+	* [r398] trunk/ChangeLog, trunk/src/lib/dialog.py,
+	  trunk/src/revelation-applet.in, trunk/src/revelation.in: moved
+	  unique dialog system to dialog module, and implemented in main
+	  app
+
+2005-08-05  Erik Grinaker <erikg@codepoet.no>
+
+	* [r397] trunk/src/revelation-applet.in: focus applet entry on
+	  search fail
+
+	* [r396] trunk/src/lib/dialog.py, trunk/src/revelation-applet.in:
+	  minor applet focus tweak
+
+	* [r395] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/dialog.py:
+	  reverted most changes to password checker dialog
+
+	* [r394] trunk/ChangeLog, trunk/TODO, trunk/src/lib/dialog.py,
+	  trunk/src/lib/io.py, trunk/src/revelation-applet.in,
+	  trunk/src/revelation.in: improved focus behavior of search
+	  entries
+
+	* [r393] trunk/ChangeLog, trunk/NEWS,
+	  trunk/src/revelation-applet.in: reordered options in applet prefs
+
+	* [r392] trunk/ChangeLog, trunk/TODO,
+	  trunk/data/icons/24x24/Makefile.am,
+	  trunk/data/icons/24x24/revelation-locked.png,
+	  trunk/data/icons/32x32/Makefile.am,
+	  trunk/data/icons/32x32/revelation-locked.png,
+	  trunk/data/icons/48x48/Makefile.am,
+	  trunk/data/icons/48x48/revelation-locked.png,
+	  trunk/src/lib/ui.py, trunk/src/revelation-applet.in: added an
+	  applet icon for locked file
+
+	* [r391] trunk/ChangeLog, trunk/TODO,
+	  trunk/data/gconf/revelation.schemas, trunk/data/ui/actions.xml,
+	  trunk/src/lib/dialog.py, trunk/src/lib/ui.py,
+	  trunk/src/revelation.in: added option for setting the toolbar
+	  style
+
+2005-08-04  Erik Grinaker <erikg@codepoet.no>
+
+	* [r390] trunk/ChangeLog, trunk/NEWS, trunk/acinclude.m4,
+	  trunk/configure.ac, trunk/src/revelation-applet.in,
+	  trunk/src/wrap/gnomemisc/Makefile.am,
+	  trunk/src/wrap/gnomemisc/gnomemisc.override: wrapped
+	  panel_applet_request_focus()
+
+	* [r389] trunk/ChangeLog, trunk/NEWS, trunk/data/ui/toolbar.xml:
+	  rearranged the toolbar layout
+
+	* [r388] trunk/NEWS, trunk/src/wrap/gnomemisc/Makefile.am,
+	  trunk/src/wrap/gnomemisc/gnomemisc.defs,
+	  trunk/src/wrap/gnomemisc/gnomemisc.override: attempted wrap of
+	  panel_applet_request_focus()
+
+	* [r387] trunk/src/lib/__init__.py,
+	  trunk/src/wrap/gnomemisc/authmanager.defs,
+	  trunk/src/wrap/gnomemisc/authmanager.override,
+	  trunk/src/wrap/gnomemisc/authmanagermodule.c,
+	  trunk/src/wrap/gnomemisc/gnomemisc.defs,
+	  trunk/src/wrap/gnomemisc/gnomemisc.override,
+	  trunk/src/wrap/gnomemisc/gnomemiscmodule.c: completed authmanager
+	  -> gnomemisc transition
+
+	* [r386] trunk/ChangeLog, trunk/configure.ac, trunk/src/lib/io.py,
+	  trunk/src/revelation-applet.in, trunk/src/revelation.in,
+	  trunk/src/wrap/Makefile.am, trunk/src/wrap/authmanager,
+	  trunk/src/wrap/gnomemisc, trunk/src/wrap/gnomemisc/Makefile.am,
+	  trunk/src/wrap/gnomemisc/authmanager.override,
+	  trunk/src/wrap/gnomemisc/authmanagermodule.c: adapted to changes
+	  in gnome-python 2.10
+
+2005-08-03  Erik Grinaker <erikg@codepoet.no>
+
+	* [r385] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/dialog.py,
+	  trunk/src/revelation-applet.in, trunk/src/revelation.in: various
+	  ui improvements
+
+	* [r384] trunk/src/revelation-applet.in: fixed a couple of strings
+	  in preferences
+
+	* [r383] trunk/ChangeLog, trunk/TODO, trunk/src/lib/io.py,
+	  trunk/src/revelation-applet.in: cleaned up applet code
+
+	* [r382] trunk/ChangeLog, trunk/Makefile.am, trunk/NEWS,
+	  trunk/configure.ac, trunk/src/Makefile.am, trunk/src/wrap,
+	  trunk/src/wrap/Makefile.am,
+	  trunk/src/wrap/authmanager/Makefile.am,
+	  trunk/src/wrap/crack/Makefile.am, trunk/wrap: moved wrap/ to
+	  src/wrap/
+
+	* [r381] trunk/ChangeLog, trunk/TODO, trunk/src/lib/dialog.py,
+	  trunk/src/lib/ui.py, trunk/src/revelation-applet.in: cleaned up
+	  some applet ui code
+
+2005-07-27  Erik Grinaker <erikg@codepoet.no>
+
+	* [r380] trunk/ChangeLog, trunk/src/revelation-applet.in: applet
+	  reruns password dialog when entering wrong password
+
+2005-07-26  Erik Grinaker <erikg@codepoet.no>
+
+	* [r379] trunk/ChangeLog, trunk/configure.ac,
+	  trunk/data/mime/revelation.desktop, trunk/src/lib/__init__.py,
+	  trunk/src/lib/config.py.in, trunk/src/lib/data.py,
+	  trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/base.py,
+	  trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/datahandler/gpass.py,
+	  trunk/src/lib/datahandler/netrc.py,
+	  trunk/src/lib/datahandler/rvl.py,
+	  trunk/src/lib/datahandler/text.py,
+	  trunk/src/lib/datahandler/xhtml.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/entry.py, trunk/src/lib/io.py, trunk/src/lib/ui.py,
+	  trunk/src/lib/util.py, trunk/src/revelation-applet.in,
+	  trunk/src/revelation.in: bumped version to 0.4.4
+
+	* [r377] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/configure.ac, trunk/data/Makefile.am, trunk/data/bonobo,
+	  trunk/data/bonobo/GNOME_RevelationApplet.server.in,
+	  trunk/data/bonobo/Makefile.am, trunk/data/gconf/Makefile.am,
+	  trunk/data/gconf/revelation-applet.schemas,
+	  trunk/src/Makefile.am, trunk/src/lib/config.py.in,
+	  trunk/src/lib/data.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/ui.py, trunk/src/revelation-applet.in,
+	  trunk/src/revelation.in: merged revelation-applet branch to trunk
+
+2005-06-30  Erik Grinaker <erikg@codepoet.no>
+
+	* [r369] trunk/src/lib/ui.py: added a few text targets to the
+	  password label drag/drop
+
+	* [r368] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/ui.py: added
+	  drag-and-drop from password labels when hiding passwords
+
+	* [r367] trunk/src/lib/data.py: on clipboard password removal, only
+	  clear clipboard if the contents are set by Revelation
+
+	* [r366] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/data.py,
+	  trunk/src/lib/dialog.py, trunk/src/lib/ui.py,
+	  trunk/src/revelation.in: passwords are removed from clipboard
+	  after 60 seconds
+
+	* [r365] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/data.py,
+	  trunk/src/lib/ui.py, trunk/src/revelation.in: moved Timer class
+	  from ui module to data module
+
+2005-06-24  Erik Grinaker <erikg@codepoet.no>
+
+	* [r359] trunk/NEWS, trunk/src/revelation.in: removed debug print
+
+	* [r358] trunk/data/gconf/revelation.schemas: updated the
+	  doubleclick gconf key description
+
+	* [r357] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/dialog.py,
+	  trunk/src/revelation.in: option for copying password to clipboard
+	  on doubleclick
+
+2005-06-22  Erik Grinaker <erikg@codepoet.no>
+
+	* [r356] trunk/src/revelation.in: more testing
+
+	* [r355] trunk/src/revelation.in: just a test
+
+2005-06-02  Erik Grinaker <erikg@codepoet.no>
+
+	* [r345] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/io.py: properly
+	  handle all gnome-vfs errors when reading/writing files
+
+	* [r344] trunk/ChangeLog, trunk/NEWS, trunk/src/Makefile.am,
+	  trunk/src/lib/Makefile.am, trunk/src/lib/datahandler/Makefile.am,
+	  trunk/src/revelation.in, trunk/wrap/authmanager/Makefile.am,
+	  trunk/wrap/crack/Makefile.am: install modules into
+	  platform-specific pyexecdir instead of pythondir
+
+2005-06-01  Erik Grinaker <erikg@codepoet.no>
+
+	* [r341] trunk/TODO: updated todo
+
+	* [r340] trunk/TODO, trunk/src/lib/dialog.py: fixed a
+	  capitalization error in a section label
+
+	* [r339] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/ui.py,
+	  trunk/src/revelation.in: improved icon theme error handling
+
+	* [r338] trunk/ChangeLog, trunk/NEWS, trunk/src/revelation.in: use
+	  correct header capitalization in utility dialogs
+
+	* [r337] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/dialog.py, trunk/src/lib/ui.py,
+	  trunk/src/lib/util.py: improved the password checker dialog
+
+	* [r336] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/ui.py: use correct indentation of entry labels in
+	  utility dialogs
+
+2005-05-31  Erik Grinaker <erikg@codepoet.no>
+
+	* [r333] trunk/ChangeLog, trunk/Makefile.am, trunk/NEWS,
+	  trunk/configure.ac, trunk/test: removed unit tests
+
+	* [r332] trunk/ChangeLog, trunk/NEWS, trunk/data/ui/actions.xml,
+	  trunk/data/ui/menubar.xml, trunk/data/ui/popup-tree.xml,
+	  trunk/data/ui/toolbar.xml, trunk/src/lib/dialog.py,
+	  trunk/src/lib/ui.py, trunk/src/revelation.in: added new 'Add
+	  folder' item
+
+2005-04-06  Erik Grinaker <erikg@codepoet.no>
+
+	* [r324] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/dialog.py, trunk/src/lib/ui.py,
+	  trunk/src/revelation.in: don't crash on missing revelation icon
+
+2005-03-31  Erik Grinaker <erikg@codepoet.no>
+
+	* [r322] trunk/ChangeLog, trunk/NEWS, trunk/configure.ac,
+	  trunk/data/mime/revelation.desktop, trunk/src/lib/__init__.py,
+	  trunk/src/lib/config.py.in, trunk/src/lib/data.py,
+	  trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/base.py,
+	  trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/datahandler/gpass.py,
+	  trunk/src/lib/datahandler/netrc.py,
+	  trunk/src/lib/datahandler/rvl.py,
+	  trunk/src/lib/datahandler/text.py,
+	  trunk/src/lib/datahandler/xhtml.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/entry.py, trunk/src/lib/io.py, trunk/src/lib/ui.py,
+	  trunk/src/lib/util.py, trunk/src/revelation.in,
+	  trunk/test/config.py, trunk/test/data.py,
+	  trunk/test/datahandler.py, trunk/test/datahandler_fpm.py,
+	  trunk/test/datahandler_gpass.py, trunk/test/datahandler_netrc.py,
+	  trunk/test/datahandler_rvl.py, trunk/test/datahandler_text.py,
+	  trunk/test/datahandler_xhtml.py, trunk/test/entry.py,
+	  trunk/test/io.py, trunk/test/ui.py, trunk/test/util.py: bumped
+	  version number to 0.4.3
+
+	* [r321] trunk/ChangeLog, trunk/NEWS, trunk/acinclude.m4: search
+	  for crack_mkdict and crack_packer in addition to the normal
+	  cracklib commands
+
+2005-03-24  Erik Grinaker <erikg@codepoet.no>
+
+	* [r320] trunk/ChangeLog,
+	  trunk/wrap/authmanager/authmanagermodule.c: minor cleanups of
+	  authmanager wrapping code
+
+	* [r319] trunk/ChangeLog, trunk/NEWS,
+	  trunk/wrap/authmanager/authmanager.defs: don't wrap
+	  gnome_authentication_manager_dialog_is_visible()
+
+2005-03-23  Erik Grinaker <erikg@codepoet.no>
+
+	* [r315] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/ui.py, trunk/src/revelation.in: stop autolock-timer
+	  when manually locking file, to avoid crash when timer tries to
+	  re-lock file
+
+	* [r314] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/acinclude.m4, trunk/data/cracklib/Makefile.am: make
+	  configure search for new cracklib-format and cracklib-packer
+	  commands as well as the old mkdict and packer commands
+
+2005-03-22  Erik Grinaker <erikg@codepoet.no>
+
+	* [r313] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/dialog.py, trunk/src/revelation.in: added quit
+	  button to unlock file dialog
+
+	* [r308] trunk/ChangeLog, trunk/NEWS, trunk/configure.ac,
+	  trunk/data/mime/revelation.desktop, trunk/src/lib/__init__.py,
+	  trunk/src/lib/config.py.in, trunk/src/lib/data.py,
+	  trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/base.py,
+	  trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/datahandler/gpass.py,
+	  trunk/src/lib/datahandler/netrc.py,
+	  trunk/src/lib/datahandler/rvl.py,
+	  trunk/src/lib/datahandler/text.py,
+	  trunk/src/lib/datahandler/xhtml.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/entry.py, trunk/src/lib/io.py, trunk/src/lib/ui.py,
+	  trunk/src/lib/util.py, trunk/src/revelation.in,
+	  trunk/test/config.py, trunk/test/data.py,
+	  trunk/test/datahandler.py, trunk/test/datahandler_fpm.py,
+	  trunk/test/datahandler_gpass.py, trunk/test/datahandler_netrc.py,
+	  trunk/test/datahandler_rvl.py, trunk/test/datahandler_text.py,
+	  trunk/test/datahandler_xhtml.py, trunk/test/entry.py,
+	  trunk/test/io.py, trunk/test/ui.py, trunk/test/util.py: bumped
+	  version number to 0.4.2
+
+	* [r307] trunk/ChangeLog, trunk/NEWS, trunk/src/revelation.in:
+	  don't use gtk.Action.set_sensitive() (API from gtk 2.6)
+
+	* [r306] trunk/ChangeLog, trunk/NEWS, trunk/acinclude.m4: check for
+	  mkdict/packer under /sbin and /usr/sbin in addition to
+	  /sbin:/bin:/usr/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/local/bin:/opt/bin:/usr/i686-pc-linux-gnu/gcc-bin/3.3.5:/opt/ati/bin:/opt/Acrobat5:/opt/stuffit/bin:/opt/blackdown-jdk-1.4.2.01/bin:/opt/blackdown-jdk-1.4.2.01/jre/bin:/usr/qt/3/bin:/usr/kde/3.3/bin:/opt/HelixPlayer:/usr/games/bin:/opt/vmware/bin
+
+2005-03-21  Erik Grinaker <erikg@codepoet.no>
+
+	* [r304] trunk/ChangeLog, trunk/NEWS: set release date
+
+	* [r303] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/configure.ac, trunk/src/revelation.in: don't steal
+	  clipboard events from widgets in main window
+
+	* [r302] trunk/TODO, trunk/acinclude.m4, trunk/configure.ac: minor
+	  build tweak
+
+	* [r301] trunk/ChangeLog, trunk/TODO, trunk/src/lib/dialog.py:
+	  don't crash when closing non-modal dialogs with escape
+
+2005-03-19  Erik Grinaker <erikg@codepoet.no>
+
+	* [r299] trunk/TODO, trunk/data/cracklib/pwdict: improved the
+	  wordlist
+
+2005-03-18  Erik Grinaker <erikg@codepoet.no>
+
+	* [r298] trunk/ChangeLog, trunk/data/cracklib/pwdict: use a better
+	  word-list
+
+	* [r297] trunk/TODO, trunk/src/lib/dialog.py: minor improvements to
+	  the password checker
+
+	* [r296] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/dialog.py, trunk/src/lib/ui.py: use better stock
+	  icons for dialog buttons
+
+	* [r295] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/data/ui/actions.xml, trunk/data/ui/menubar.xml,
+	  trunk/src/lib/dialog.py, trunk/src/lib/ui.py,
+	  trunk/src/lib/util.py, trunk/src/revelation.in: added password
+	  checker dialog
+
+	* [r294] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/ui.py: use
+	  better lock icon
+
+	* [r293] trunk/ChangeLog, trunk/src/lib/util.py: check generated
+	  passwords strength if length >= 8
+
+	* [r292] trunk/src/lib/dialog.py: dont close modal dialogs after
+	  unlocking file
+
+	* [r291] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/revelation.in: hide any open dialogs when locking the
+	  file
+
+	* [r290] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/config.py.in: workaround for crashes on 64-bit
+	  systems
+
+	* [r289] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/ui.py: left-align labels in link-buttons
+
+	* [r288] trunk/TODO, trunk/src/revelation.in: don't crash on
+	  doubleclick goto
+
+2005-03-17  Erik Grinaker <erikg@codepoet.no>
+
+	* [r287] trunk/ChangeLog, trunk/configure.ac,
+	  trunk/data/mime/revelation.desktop, trunk/src/lib/__init__.py,
+	  trunk/src/lib/config.py.in, trunk/src/lib/data.py,
+	  trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/base.py,
+	  trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/datahandler/gpass.py,
+	  trunk/src/lib/datahandler/netrc.py,
+	  trunk/src/lib/datahandler/rvl.py,
+	  trunk/src/lib/datahandler/text.py,
+	  trunk/src/lib/datahandler/xhtml.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/entry.py, trunk/src/lib/io.py, trunk/src/lib/ui.py,
+	  trunk/src/lib/util.py, trunk/src/revelation.in,
+	  trunk/test/config.py, trunk/test/data.py,
+	  trunk/test/datahandler.py, trunk/test/datahandler_fpm.py,
+	  trunk/test/datahandler_gpass.py, trunk/test/datahandler_netrc.py,
+	  trunk/test/datahandler_rvl.py, trunk/test/datahandler_text.py,
+	  trunk/test/datahandler_xhtml.py, trunk/test/entry.py,
+	  trunk/test/io.py, trunk/test/ui.py, trunk/test/util.py: bump
+	  version number to 0.4.1
+
+	* [r286] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/data.py, trunk/src/lib/entry.py,
+	  trunk/src/lib/ui.py: update icons on theme change
+
+	* [r285] trunk/src/lib/ui.py: fix typo in fallback folder icon
+	  loading
+
+	* [r284] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/configure.ac, trunk/data/icons/Makefile.am,
+	  trunk/data/icons/scalable, trunk/data/icons/scalable/Makefile.am,
+	  trunk/data/icons/scalable/revelation-fallback-folder-open.svg,
+	  trunk/data/icons/scalable/revelation-fallback-folder.svg,
+	  trunk/src/lib/ui.py: use fallback folder icons when missing in
+	  theme
+
+	* [r283] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/dialog.py:
+	  improved the preference dialog
+
+	* [r282] trunk/ChangeLog, trunk/Makefile.am, trunk/NEWS,
+	  trunk/TODO, trunk/autogen.sh, trunk/configure.ac,
+	  trunk/data/Makefile.am, trunk/data/cracklib,
+	  trunk/data/cracklib/Makefile.am, trunk/data/cracklib/pwdict,
+	  trunk/data/gconf, trunk/data/gconf/Makefile.am,
+	  trunk/data/gconf/revelation.schemas,
+	  trunk/data/icons/16x16/Makefile.am,
+	  trunk/data/icons/24x24/Makefile.am,
+	  trunk/data/icons/32x32/Makefile.am,
+	  trunk/data/icons/48x48/Makefile.am, trunk/data/icons/Makefile.am,
+	  trunk/data/mime/Makefile.am, trunk/data/mime/revelation.desktop,
+	  trunk/data/pwdict, trunk/data/revelation.desktop,
+	  trunk/data/revelation.schemas, trunk/data/ui/Makefile.am,
+	  trunk/src/Makefile.am, trunk/src/lib/Makefile.am,
+	  trunk/src/lib/datahandler/Makefile.am, trunk/test/Makefile.am,
+	  trunk/wrap/Makefile.am, trunk/wrap/authmanager/Makefile.am,
+	  trunk/wrap/crack/Makefile.am, trunk/wrap/crack/crack.c.in:
+	  cleaned up the build-system and source file layout
+
+	* [r281] trunk/src/revelation.in: minor tweak in doubleclick
+	  handling
+
+	* [r280] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/data/revelation.schemas, trunk/src/lib/config.py.in,
+	  trunk/src/lib/dialog.py, trunk/src/lib/ui.py,
+	  trunk/src/revelation.in: added preference to select doubleclick
+	  action; go to, or edit
+
+	* [r279] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/data/revelation.schemas, trunk/data/ui/actions.xml,
+	  trunk/src/lib/config.py.in, trunk/src/lib/dialog.py,
+	  trunk/src/revelation.in: improve ui for copying password to
+	  clipboard
+
+	* [r278] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/revelation.in: fix potential crash on quit with some
+	  pygtk versions
+
+	* [r277] trunk/ChangeLog, trunk/src/lib/dialog.py: make password
+	  warnings handle escape as cancel
+
+2005-03-16  Erik Grinaker <erikg@codepoet.no>
+
+	* [r276] trunk/src/lib/util.py: minor string tweak
+
+	* [r275] trunk/ChangeLog, trunk/TODO, trunk/src/lib/util.py: more
+	  thorough password strength checker
+
+	* [r274] trunk/src/lib/dialog.py: fix bug in insecure password
+	  dialogs causing them never to accept an insecure password
+
+	* [r273] trunk/src/lib/dialog.py: handle file selection
+	  cancellations correctly
+
+	* [r272] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/revelation.in: properly handle invalid data in
+	  datafiles
+
+	* [r271] trunk/ChangeLog, trunk/NEWS,
+	  trunk/src/lib/datahandler/rvl.py: use correct encoding for data
+	  files, and work around incorrect encoding for files generated by
+	  version 0.4.0
+
+	* [r270] trunk/ChangeLog, trunk/NEWS,
+	  trunk/src/lib/datahandler/rvl.py: handle non-ascii characters
+	  correctly
+
+	* [r269] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/dialog.py:
+	  display non-ascii characters in filenames correctly
+
+	* [r268] trunk/ChangeLog, trunk/NEWS, trunk/src/revelation.in:
+	  don't crash when unable to save file
+
+	* [r267] trunk/ChangeLog, trunk/src/lib/io.py: make
+	  io.file_monitor() handle gnome.vfs.NotSupportedError
+
+	* [r266] trunk/TODO: updated TODO
+
+	* [r264] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/acinclude.m4, trunk/configure.ac, trunk/data/Makefile.am,
+	  trunk/data/pwdict, trunk/data/revelation.schemas,
+	  trunk/src/lib/__init__.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/io.py, trunk/src/lib/ui.py, trunk/src/lib/util.py,
+	  trunk/src/revelation.in, trunk/test/io.py, trunk/test/ui.py,
+	  trunk/wrap/Makefile.am, trunk/wrap/authmanager,
+	  trunk/wrap/authmanager.defs, trunk/wrap/authmanager.override,
+	  trunk/wrap/authmanager/Makefile.am,
+	  trunk/wrap/authmanager/authmanager.defs,
+	  trunk/wrap/authmanager/authmanager.override,
+	  trunk/wrap/authmanager/authmanagermodule.c,
+	  trunk/wrap/authmanagermodule.c, trunk/wrap/crack,
+	  trunk/wrap/crack/Makefile.am, trunk/wrap/crack/crack.c.in: merged
+	  trunk-0.4.1 branch changes r247:263
+
+2005-02-08  Erik Grinaker <erikg@codepoet.no>
+
+	* [r260] trunk/acinclude.m4: fixed typo in python path checks
+
+	* [r259] trunk/wrap/Makefile.am: use PYTHON_INCLUDE, not PY_INCLUDE
+
+	* [r258] trunk/ChangeLog, trunk/NEWS, trunk/acinclude.m4,
+	  trunk/configure.ac, trunk/data/Makefile.am,
+	  trunk/data/mime/Makefile.am, trunk/src/lib/config.py.in: allow
+	  disabling mime, desktop and gconf schema install
+
+2005-02-05  Erik Grinaker <erikg@codepoet.no>
+
+	* [r255] trunk/ChangeLog, trunk/NEWS, trunk/src/revelation.in:
+	  autosave on dnd, if enabled
+
+2005-02-03  Erik Grinaker <erikg@codepoet.no>
+
+	* [r252] trunk/ChangeLog, trunk/NEWS,
+	  trunk/src/lib/datahandler/Makefile.am: build byte-compiled
+	  datahandler modules
+
+2005-02-02  Erik Grinaker <erikg@codepoet.no>
+
+	* [r249] trunk/ChangeLog, trunk/NEWS, trunk/src/revelation.in:
+	  treeview keyboard commands caused unhandled exception
+
+	* [r246] trunk/NEWS: fixed NEWS headline
+
+	* [r245] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/datahandler/Makefile.am,
+	  trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/text.py, trunk/src/lib/dialog.py,
+	  trunk/test/Makefile.am, trunk/test/datahandler_text.py: added
+	  plaintext datahandler module
+
+2005-02-01  Erik Grinaker <erikg@codepoet.no>
+
+	* [r243] trunk/ChangeLog, trunk/NEWS, trunk/configure.ac,
+	  trunk/src/lib/config.py.in, trunk/test/io.py: bumped version
+	  number to 0.4.0-pre2
+
+	* [r242] trunk/ChangeLog, trunk/src/lib/ui.py, trunk/test/ui.py:
+	  completed ui module unit tests
+
+	* [r241] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/data.py,
+	  trunk/src/revelation.in: fixed a drag/drop undo crasher
+
+2005-01-29  Erik Grinaker <erikg@codepoet.no>
+
+	* [r240] trunk/ChangeLog, trunk/data/mime/Makefile.am,
+	  trunk/test/ui.py: wrote more ui module unit tests
+
+	* [r239] trunk/ChangeLog, trunk/NEWS, trunk/configure.ac,
+	  trunk/data/Makefile.am, trunk/data/mime/Makefile.am: improved
+	  fd.o shared MIME handling when building
+
+2005-01-28  Erik Grinaker <erikg@codepoet.no>
+
+	* [r238] trunk/NEWS: updated NEWS
+
+	* [r237] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/data/Makefile.am: run update-desktop-database on install
+
+2005-01-26  Erik Grinaker <erikg@codepoet.no>
+
+	* [r236] trunk/ChangeLog, trunk/NEWS,
+	  trunk/data/icons/48x48/Makefile.am: install mimetype icon into
+	  correct directory
+
+2005-01-25  Erik Grinaker <erikg@codepoet.no>
+
+	* [r235] trunk/ChangeLog, trunk/NEWS, trunk/src/revelation.in:
+	  fixed a tree dragndrop bug which broke dragging to folders
+	  directly before/after the source entry
+
+	* [r234] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/ui.py,
+	  trunk/test/ui.py: more unit tests for ui module
+
+	* [r233] trunk/ChangeLog, trunk/NEWS, trunk/data/mime/Makefile.am,
+	  trunk/data/revelation.desktop: set .desktop category to Utility
+
+	* [r232] trunk/ChangeLog, trunk/NEWS, trunk/wrap/Makefile.am: build
+	  fixes for authmanager module
+
+2005-01-24  Erik Grinaker <erikg@codepoet.no>
+
+	* [r230] trunk/ChangeLog, trunk/src/lib/entry.py: don't use stock
+	  module
+
+	* [r229] trunk/autogen.sh: removed ./configure from autogen
+
+	* [r228] trunk/ChangeLog, trunk/NEWS, trunk/configure.ac,
+	  trunk/src/revelation.in: fixed a dnd bug
+
+	* [r227] trunk/ChangeLog, trunk/src/lib/io.py, trunk/test/io.py:
+	  fixed a couple of io module unit tests
+
+	* [r226] trunk/ChangeLog, trunk/NEWS,
+	  trunk/data/revelation.schemas, trunk/data/ui/actions.xml,
+	  trunk/data/ui/menubar.xml, trunk/data/ui/popup-tree.xml,
+	  trunk/data/ui/toolbar.xml, trunk/src/lib/config.py.in,
+	  trunk/src/lib/dialog.py, trunk/src/lib/ui.py,
+	  trunk/src/revelation.in, trunk/test/ui.py: renamed launch to go
+	  to, and made go to default action for doubleclick
+
+	* [r225] trunk/ChangeLog, trunk/src/lib/ui.py, trunk/test/ui.py: a
+	  few more ui module unit tests
+
+2005-01-08  Erik Grinaker <erikg@codepoet.no>
+
+	* [r224] trunk/ChangeLog, trunk/src/lib/ui.py, trunk/test/ui.py:
+	  more ui module unit tests
+
+2005-01-07  Erik Grinaker <erikg@codepoet.no>
+
+	* [r223] trunk/ChangeLog, trunk/src/lib/dialog.py,
+	  trunk/src/lib/ui.py, trunk/test/ui.py: wrote more unit tests for
+	  the ui module
+
+	* [r222] trunk/src/lib/config.py.in: updated release name
+
+2005-01-06  Erik Grinaker <erikg@codepoet.no>
+
+	* [r221] trunk/src/lib/ui.py, trunk/test/ui.py: wrote more ui
+	  module unit tests
+
+	* [r220] trunk/test/ui.py: updated version and copyright period in
+	  ui unit tests
+
+	* [r219] trunk/src/lib/ui.py: set Id keyword on ui module
+
+	* [r218] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/dialog.py, trunk/src/lib/ui.py,
+	  trunk/test/Makefile.am, trunk/test/ui.py: wrote some unit tests
+	  for the ui module, and made a few ui code tweaks
+
+2005-01-05  Erik Grinaker <erikg@codepoet.no>
+
+	* [r217] trunk/ChangeLog, trunk/NEWS: merged with 0.3.x bugfix
+	  branch
+
+	* [r216] trunk/src/revelation.in: fixed bug in doubleclick
+	  launching
+
+	* [r215] trunk/test/Makefile.am: updated unit test Makefile
+
+	* [r214] trunk/ChangeLog, trunk/src/lib/datahandler/xhtml.py,
+	  trunk/test/datahandler_netrc.py, trunk/test/datahandler_xhtml.py:
+	  updated the xhtml datahandler, and wrote unit tests for it
+
+	* [r213] trunk/ChangeLog, trunk/TODO,
+	  trunk/src/lib/datahandler/netrc.py,
+	  trunk/test/datahandler_netrc.py: rewrote the netrc data handler,
+	  and wrote unit tests for it
+
+2005-01-04  Erik Grinaker <erikg@codepoet.no>
+
+	* [r212] trunk/ChangeLog, trunk/src/lib/__init__.py,
+	  trunk/src/lib/config.py.in, trunk/src/lib/data.py,
+	  trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/base.py,
+	  trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/datahandler/gpass.py,
+	  trunk/src/lib/datahandler/netrc.py,
+	  trunk/src/lib/datahandler/rvl.py,
+	  trunk/src/lib/datahandler/xhtml.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/entry.py, trunk/src/lib/io.py, trunk/src/lib/ui.py,
+	  trunk/src/lib/util.py, trunk/src/revelation.in,
+	  trunk/test/config.py, trunk/test/data.py,
+	  trunk/test/datahandler.py, trunk/test/datahandler_fpm.py,
+	  trunk/test/datahandler_gpass.py, trunk/test/datahandler_rvl.py,
+	  trunk/test/entry.py, trunk/test/io.py, trunk/test/util.py:
+	  updated copyright period
+
+	* [r211] trunk/data/revelation.desktop, trunk/src/lib/__init__.py,
+	  trunk/src/lib/config.py.in, trunk/src/lib/data.py,
+	  trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/base.py,
+	  trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/datahandler/gpass.py,
+	  trunk/src/lib/datahandler/netrc.py,
+	  trunk/src/lib/datahandler/rvl.py,
+	  trunk/src/lib/datahandler/xhtml.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/entry.py, trunk/src/lib/io.py, trunk/src/lib/ui.py,
+	  trunk/src/lib/util.py, trunk/src/revelation.in,
+	  trunk/test/config.py, trunk/test/data.py,
+	  trunk/test/datahandler.py, trunk/test/datahandler_fpm.py,
+	  trunk/test/datahandler_gpass.py, trunk/test/datahandler_rvl.py,
+	  trunk/test/entry.py, trunk/test/io.py, trunk/test/util.py:
+	  updated all version numbers to 0.4.0
+
+	* [r210] trunk/src/lib/config.py.in, trunk/test/config.py,
+	  trunk/test/data.py, trunk/test/datahandler_fpm.py,
+	  trunk/test/datahandler_gpass.py, trunk/test/datahandler_rvl.py,
+	  trunk/test/entry.py: set Id keyword on all python files
+
+	* [r209] trunk/ChangeLog, trunk/src/lib/datahandler/gpass.py,
+	  trunk/test/datahandler_gpass.py: rewrote gpass datahandler, and
+	  wrote unit tests for it
+
+	* [r208] trunk/ChangeLog, trunk/test/util.py: updated unit tests
+	  for util module
+
+	* [r207] trunk/ChangeLog: fixed changelog
+
+	* [r206] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/revelation.in: fall back to False for GNOME
+	  toolbar_detachable setting
+
+	* [r205] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/ui.py: don't
+	  subclass gnome.ui.HRef
+
+2005-01-01  Erik Grinaker <erikg@codepoet.no>
+
+	* [r204] trunk/ChangeLog, trunk/Makefile.am,
+	  trunk/data/revelation.desktop, trunk/test/Makefile.am: renamed
+	  Makefile test target to check
+
+2004-12-31  Erik Grinaker <erikg@codepoet.no>
+
+	* [r203] trunk/ChangeLog, trunk/TODO, trunk/src/lib/data.py,
+	  trunk/test/data.py, trunk/test/util.py: updated the data module
+	  unit tests
+
+2004-12-21  Erik Grinaker <erikg@codepoet.no>
+
+	* [r202] trunk/ChangeLog, trunk/TODO, trunk/src/revelation.in:
+	  improved the Revelation class API
+
+2004-12-17  Erik Grinaker <erikg@codepoet.no>
+
+	* [r201] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/data/revelation.schemas, trunk/data/ui/actions.xml,
+	  trunk/data/ui/menubar.xml, trunk/data/ui/popup-tree.xml,
+	  trunk/src/lib/config.py.in, trunk/src/lib/data.py,
+	  trunk/src/lib/dialog.py, trunk/src/revelation.in: added clipboard
+	  chaining
+
+2004-12-16  Erik Grinaker <erikg@codepoet.no>
+
+	* [r200] trunk/ChangeLog, trunk/INSTALL: used generic INSTALL
+	  instructions from automake
+
+2004-12-15  Erik Grinaker <erikg@codepoet.no>
+
+	* [r199] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/revelation.in: added gnome session manager support
+
+	* [r198] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/data/revelation.schemas, trunk/src/lib/config.py.in,
+	  trunk/src/lib/data.py, trunk/src/lib/dialog.py,
+	  trunk/src/revelation.in: added preference for copying username to
+	  PRIMARY selection when launching an entry
+
+	* [r197] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/data/revelation.schemas, trunk/src/lib/config.py.in,
+	  trunk/src/lib/dialog.py, trunk/src/lib/util.py,
+	  trunk/src/revelation.in: added a preference for launching entry
+	  on doubleclick
+
+	* [r196] trunk/TODO: updated TODO
+
+2004-12-14  Erik Grinaker <erikg@codepoet.no>
+
+	* [r195] trunk/ChangeLog, trunk/Makefile.am, trunk/TODO,
+	  trunk/configure.ac, trunk/depcomp, trunk/src/lib/__init__.py,
+	  trunk/src/lib/io.py, trunk/src/revelation.in, trunk/wrap,
+	  trunk/wrap/Makefile.am, trunk/wrap/authmanager.defs,
+	  trunk/wrap/authmanager.override, trunk/wrap/authmanagermodule.c:
+	  wrapped and used gnome_authentication_manager_init() for
+	  gnome-vfs authentication dialogs
+
+	* [r194] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/dialog.py, trunk/src/lib/ui.py: various minor
+	  improvements to dialogs
+
+2004-12-13  Erik Grinaker <erikg@codepoet.no>
+
+	* [r193] trunk/src/lib/ui.py: added menuitem for copy password to
+	  all password entry fields
+
+	* [r192] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/ui.py, trunk/src/revelation.in: added menu items
+	  for copying username/password to clipboard
+
+	* [r191] trunk/TODO, trunk/src/lib/ui.py: allow multirow
+	  drag-and-drop with middle mouse button as well
+
+	* [r190] trunk/TODO, trunk/src/lib/ui.py, trunk/src/revelation.in:
+	  fixed drag-and-drop of multiple entries in tree
+
+	* [r189] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/data.py,
+	  trunk/src/revelation.in: added drag and drop of entries in tree
+
+2004-12-10  Erik Grinaker <erikg@codepoet.no>
+
+	* [r188] trunk/ChangeLog, trunk/TODO, trunk/src/lib/io.py: check
+	  file format before asking for password
+
+	* [r187] trunk/src/revelation.in: clear the undoqueue when editing
+	  a new file
+
+	* [r186] trunk/ChangeLog, trunk/NEWS, trunk/src/revelation.in:
+	  files can be dragged to Revelation to open them
+
+	* [r185] trunk/TODO, trunk/data/icons/48x48/Makefile.am: install
+	  file icon into correct dir
+
+	* [r184] trunk/ChangeLog, trunk/NEWS, trunk/configure.ac,
+	  trunk/data/Makefile.am, trunk/data/icons/48x48/Makefile.am,
+	  trunk/data/icons/48x48/gnome-mime-application-x-revelation.png,
+	  trunk/data/mime, trunk/data/mime/Makefile.am,
+	  trunk/data/mime/revelation.xml, trunk/data/revelation.desktop:
+	  added mimetype and icon for data files
+
+	* [r183] trunk/ChangeLog, trunk/TODO, trunk/src/lib/Makefile.am,
+	  trunk/src/lib/config.py.in, trunk/src/lib/data.py,
+	  trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/base.py, trunk/test/config.py,
+	  trunk/test/data.py, trunk/test/datahandler.py: added unit tests
+	  for clipboard classes, and updated unit tests for config module
+
+	* [r182] trunk/ChangeLog, trunk/NEWS, trunk/data/ui/Makefile.am,
+	  trunk/data/ui/actions.xml, trunk/data/ui/menubar.xml,
+	  trunk/data/ui/popup-tree.xml, trunk/data/ui/toolbar.xml,
+	  trunk/src/lib/Makefile.am, trunk/src/lib/__init__.py,
+	  trunk/src/lib/config.py.in, trunk/src/lib/data.py,
+	  trunk/src/lib/datahandler/__init__.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/io.py, trunk/src/lib/stock.py, trunk/src/lib/ui.py,
+	  trunk/src/lib/widget.py, trunk/src/revelation.in: rewrote the
+	  application code, and the dialog and ui modules
+
+2004-11-26  Erik Grinaker <erikg@codepoet.no>
+
+	* [r181] trunk/ChangeLog, trunk/src/lib/Makefile.am,
+	  trunk/src/lib/__init__.py, trunk/src/lib/__init__.py.in,
+	  trunk/src/lib/config.py, trunk/src/lib/config.py.in,
+	  trunk/src/lib/datahandler/rvl.py, trunk/src/lib/io.py,
+	  trunk/test/io.py: moved build-time variables into config module
+
+	* [r180] trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/datahandler/rvl.py, trunk/test/datahandler_fpm.py,
+	  trunk/test/datahandler_rvl.py: updated datahandlers to use new
+	  data APIs
+
+	* [r179] trunk/src/lib/entry.py, trunk/test/entry.py: added
+	  FIELDLIST to entry module
+
+	* [r178] trunk/src/lib/entry.py, trunk/test/entry.py: added
+	  convert_entry_generic() again
+
+	* [r177] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/data.py,
+	  trunk/src/lib/widget.py, trunk/test/Makefile.am,
+	  trunk/test/data.py: rewrote the data module, and added unit tests
+
+2004-11-23  Erik Grinaker <erikg@codepoet.no>
+
+	* [r176] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/Makefile.am,
+	  trunk/src/lib/__init__.py.in, trunk/src/lib/config.py,
+	  trunk/src/lib/data.py, trunk/src/revelation.in,
+	  trunk/test/Makefile.am, trunk/test/config.py: moved config
+	  handling into separate module, and wrote unit tests for it
+
+2004-11-19  Erik Grinaker <erikg@codepoet.no>
+
+	* [r175] trunk/src/lib/Makefile.am: removed misc module from
+	  Makefile
+
+	* [r174] trunk/ChangeLog, trunk/src/lib/__init__.py.in,
+	  trunk/src/lib/misc.py, trunk/src/lib/util.py, trunk/test/util.py:
+	  moved parse_subst() into util module, wrote unit tests for it,
+	  and removed the misc module
+
+	* [r173] trunk/ChangeLog, trunk/NEWS,
+	  trunk/src/lib/datahandler/xhtml.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/entry.py, trunk/src/lib/widget.py,
+	  trunk/test/Makefile.am, trunk/test/entry.py: rewrote the entry
+	  module, and wrote unit tests for it
+
+2004-11-03  Erik Grinaker <erikg@codepoet.no>
+
+	* [r172] trunk/ChangeLog, trunk/Makefile.am, trunk/configure.ac,
+	  trunk/test/Makefile.am, trunk/test/io.py: Makefile target for
+	  unit tests
+
+	* [r171] trunk/ChangeLog, trunk/src/lib/datahandler/fpm.py,
+	  trunk/test/datahandler_fpm.py: rewrote fpm data handler
+
+2004-10-30  Erik Grinaker <erikg@codepoet.no>
+
+	* [r170] trunk/ChangeLog, trunk/src/lib/__init__.py.in,
+	  trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/base.py,
+	  trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/datahandler/rvl.py, trunk/src/lib/entry.py,
+	  trunk/src/lib/io.py, trunk/src/lib/util.py,
+	  trunk/test/datahandler_rvl.py, trunk/test/io.py,
+	  trunk/test/util.py: rewrote revelation data handlers
+
+2004-10-23  Erik Grinaker <erikg@codepoet.no>
+
+	* [r169] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/Makefile.am,
+	  trunk/src/lib/__init__.py.in, trunk/src/lib/data.py,
+	  trunk/src/lib/dialog.py, trunk/src/lib/entry.py,
+	  trunk/src/lib/io.py, trunk/src/lib/misc.py,
+	  trunk/src/lib/util.py, trunk/src/lib/widget.py,
+	  trunk/src/revelation.in, trunk/test/io.py, trunk/test/util.py:
+	  added util module, and moved much rewritten code to it
+
+2004-10-22  Erik Grinaker <erikg@codepoet.no>
+
+	* [r168] trunk/ChangeLog, trunk/NEWS, trunk/test/datahandler.py:
+	  added unittests for datahandler module
+
+	* [r167] trunk/src/lib/io.py, trunk/test/io.py: added execute() and
+	  execute_child() functions
+
+	* [r165] trunk/ChangeLog, trunk/NEWS, trunk/test, trunk/test/io.py:
+	  added unit tests for io module
+
+	* [r164] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/data/ui/popup-tree.xml, trunk/src/lib/data.py,
+	  trunk/src/lib/datahandler/rvl.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/io.py, trunk/src/revelation.in: added gnome-vfs
+	  support
+
+2004-09-23  Erik Grinaker <erikg@codepoet.no>
+
+	* [r148] trunk/TODO: updated TODO
+
+2004-09-18  Erik Grinaker <erikg@codepoet.no>
+
+	* [r147] trunk/ChangeLog, trunk/src/lib/data.py: changed popular
+	  value threshold to 3
+
+	* [r146] trunk/TODO, trunk/src/lib/widget.py,
+	  trunk/src/revelation.in: added ellipsis to menu items
+
+2004-09-17  Erik Grinaker <erikg@codepoet.no>
+
+	* [r145] trunk/ChangeLog, trunk/src/lib/widget.py,
+	  trunk/src/revelation.in: minor searchbar improvements
+
+	* [r144] trunk/ChangeLog, trunk/src/lib/entry.py: prepend current
+	  username to username dropdown
+
+2004-09-16  Erik Grinaker <erikg@codepoet.no>
+
+	* [r143] trunk/ChangeLog, trunk/src/lib/entry.py: added the users
+	  username to the username dropdown
+
+	* [r142] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/entry.py, trunk/src/lib/widget.py,
+	  trunk/src/revelation.in: password is copied to clipboard when
+	  launching an entry
+
+	* [r141] trunk/TODO: updated TODO
+
+2004-09-15  Erik Grinaker <erikg@codepoet.no>
+
+	* [r140] trunk/ChangeLog, trunk/src/lib/stock.py: 18x18 pixel icons
+	  in the treeview
+
+2004-09-13  Erik Grinaker <erikg@codepoet.no>
+
+	* [r139] trunk/TODO: updated TODO
+
+	* [r138] trunk/ChangeLog, trunk/src/revelation.in: priority flag on
+	  add and launch
+
+	* [r137] trunk/ChangeLog, trunk/TODO, trunk/src/revelation.in: set
+	  undo/redo action names on menu items
+
+	* [r136] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/data.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/entry.py, trunk/src/lib/widget.py,
+	  trunk/src/revelation.in: improved entry editing widgets
+
+	* [r135] trunk/ChangeLog, trunk/src/lib/dialog.py: the edit entry
+	  dialog works again
+
+	* [r134] trunk/ChangeLog, trunk/src/revelation.in: clipboard
+	  pasting works again
+
+	* [r133] trunk/ChangeLog, trunk/src/lib/dialog.py,
+	  trunk/src/lib/widget.py: EntryDropdown works in search dialog
+
+2004-09-11  Erik Grinaker <erikg@codepoet.no>
+
+	* [r132] trunk/ChangeLog, trunk/src/lib/data.py: use
+	  DIR_GCONFSCHEMAS variable for installing gconf schemas
+
+2004-09-09  Erik Grinaker <erikg@codepoet.no>
+
+	* [r129] trunk/ChangeLog, trunk/TODO, trunk/src/lib/__init__.py.in:
+	  properly expand pkgschemadir variable
+
+	* [r128] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/dialog.py, trunk/src/lib/stock.py,
+	  trunk/src/lib/widget.py: use combobox for dropdowns
+
+2004-09-06  Erik Grinaker <erikg@codepoet.no>
+
+	* [r124] trunk/src/revelation.in: use 32x32 and 24x24 icon sizes as
+	  window defaults as well
+
+	* [r123] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/configure.ac, trunk/data/icons/16x16/revelation.png,
+	  trunk/data/icons/24x24, trunk/data/icons/24x24/Makefile.am,
+	  trunk/data/icons/24x24/revelation.png, trunk/data/icons/32x32,
+	  trunk/data/icons/32x32/Makefile.am,
+	  trunk/data/icons/32x32/revelation.png,
+	  trunk/data/icons/48x48/revelation.png,
+	  trunk/data/icons/Makefile.am: new application icon
+
+	* [r122] trunk/ChangeLog, trunk/data/revelation.desktop: use base
+	  filename as icon name in .desktop file
+
+	* [r121] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/entry.py:
+	  Domain field used tooltip as name
+
+	* [r120] trunk/ChangeLog, trunk/NEWS, trunk/configure.ac,
+	  trunk/data/icons/16x16, trunk/data/icons/16x16/Makefile.am,
+	  trunk/data/icons/16x16/revelation.png, trunk/data/icons/48x48,
+	  trunk/data/icons/48x48/Makefile.am,
+	  trunk/data/icons/48x48/revelation.png,
+	  trunk/data/icons/Makefile.am,
+	  trunk/data/icons/account-creditcard.png,
+	  trunk/data/icons/account-cryptokey.png,
+	  trunk/data/icons/account-database.png,
+	  trunk/data/icons/account-door.png,
+	  trunk/data/icons/account-email.png,
+	  trunk/data/icons/account-ftp.png,
+	  trunk/data/icons/account-generic.png,
+	  trunk/data/icons/account-phone.png,
+	  trunk/data/icons/account-shell.png,
+	  trunk/data/icons/account-website.png,
+	  trunk/data/icons/folder-open.png, trunk/data/icons/folder.png,
+	  trunk/data/icons/password.png,
+	  trunk/data/icons/revelation-16x16.png,
+	  trunk/data/icons/revelation.png, trunk/src/lib/Makefile.am,
+	  trunk/src/lib/__init__.py.in, trunk/src/lib/data.py,
+	  trunk/src/lib/dialog.py, trunk/src/lib/entry.py,
+	  trunk/src/lib/stock.py, trunk/src/lib/widget.py,
+	  trunk/src/revelation.in: icons from gnome icon theme
+
+2004-09-05  Erik Grinaker <erikg@codepoet.no>
+
+	* [r119] trunk/data/icons/Makefile, trunk/data/icons/Makefile.in:
+	  fixed some screwups
+
+	* [r118] trunk/data/icons, trunk/data/icons/Makefile,
+	  trunk/data/icons/Makefile.am, trunk/data/icons/Makefile.in,
+	  trunk/data/icons/account-creditcard.png,
+	  trunk/data/icons/account-cryptokey.png,
+	  trunk/data/icons/account-database.png,
+	  trunk/data/icons/account-door.png,
+	  trunk/data/icons/account-email.png,
+	  trunk/data/icons/account-ftp.png,
+	  trunk/data/icons/account-generic.png,
+	  trunk/data/icons/account-phone.png,
+	  trunk/data/icons/account-shell.png,
+	  trunk/data/icons/account-website.png,
+	  trunk/data/icons/folder-open.png, trunk/data/icons/folder.png,
+	  trunk/data/icons/password.png,
+	  trunk/data/icons/revelation-16x16.png,
+	  trunk/data/icons/revelation.png, trunk/data/images: fixed icons
+
+	* [r117] trunk/ChangeLog, trunk/configure.ac,
+	  trunk/data/Makefile.am, trunk/data/images/Makefile.am,
+	  trunk/data/images/account-creditcard.png,
+	  trunk/data/images/account-cryptokey.png,
+	  trunk/data/images/account-database.png,
+	  trunk/data/images/account-door.png,
+	  trunk/data/images/account-email.png,
+	  trunk/data/images/account-ftp.png,
+	  trunk/data/images/account-generic.png,
+	  trunk/data/images/account-phone.png,
+	  trunk/data/images/account-shell.png,
+	  trunk/data/images/account-website.png,
+	  trunk/data/images/folder-open.png, trunk/data/images/folder.png,
+	  trunk/data/images/password.png,
+	  trunk/data/images/revelation-16x16.png,
+	  trunk/data/images/revelation.png, trunk/src/lib/__init__.py.in:
+	  renamed data/images to data/icons
+
+2004-09-04  Erik Grinaker <erikg@codepoet.no>
+
+	* [r116] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/data.py, trunk/src/lib/widget.py: searchbar follows
+	  detachable toolbar setting
+
+	* [r115] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/dialog.py,
+	  trunk/src/revelation.in: user may attempt to continue when an
+	  unknown error occurs
+
+	* [r114] trunk/src/lib/widget.py, trunk/src/revelation.in: small
+	  fixes to the uimanager code
+
+	* [r113] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/configure.ac, trunk/data/Makefile.am, trunk/data/ui,
+	  trunk/data/ui/Makefile.am, trunk/data/ui/menubar.xml,
+	  trunk/data/ui/popup-tree.xml, trunk/data/ui/toolbar.xml,
+	  trunk/src/lib/__init__.py.in, trunk/src/lib/widget.py,
+	  trunk/src/revelation.in: ported to gtk.UIManager
+
+2004-09-01  Erik Grinaker <erikg@codepoet.no>
+
+	* [r111] trunk/src/revelation.in: minor bugfix
+
+2004-08-31  Erik Grinaker <erikg@codepoet.no>
+
+	* [r110] trunk/ChangeLog, trunk/TODO, trunk/src/revelation.in:
+	  first try pythonpath from configure
+
+2004-08-30  Erik Grinaker <erikg@codepoet.no>
+
+	* [r109] trunk/configure.ac: check for python Crypto module on
+	  installation
+
+	* [r108] trunk/data/images/Makefile.am,
+	  trunk/src/lib/datahandler/Makefile.am: even more autotools fixes
+
+	* [r107] trunk/src/lib/Makefile.am: more autotools fixes
+
+	* [r106] trunk/ChangeLog, trunk/TODO, trunk/src/lib/Makefile.am:
+	  fixed some autotools issues
+
+	* [r105] trunk/ChangeLog, trunk/Makefile.am, trunk/NEWS,
+	  trunk/TODO, trunk/autogen.sh, trunk/configure.ac,
+	  trunk/data/Makefile.am, trunk/data/images/Makefile.am,
+	  trunk/install-sh, trunk/missing, trunk/mkinstalldirs,
+	  trunk/py-compile, trunk/setup.py, trunk/src/Makefile.am,
+	  trunk/src/lib/Makefile.am, trunk/src/lib/__init__.py,
+	  trunk/src/lib/__init__.py.in, trunk/src/lib/data.py,
+	  trunk/src/lib/datahandler/Makefile.am, trunk/src/lib/dialog.py,
+	  trunk/src/lib/stock.py, trunk/src/revelation,
+	  trunk/src/revelation.in: use gnu autotools for installation
+
+	* [r104] trunk/ChangeLog, trunk/NEWS, trunk/data,
+	  trunk/data/images, trunk/gnome, trunk/pixmaps, trunk/setup.py:
+	  reorganized source file tree
+
+	* [r103] trunk/ChangeLog, trunk/INSTALL, trunk/NEWS,
+	  trunk/src/lib/dialog.py, trunk/src/revelation: use new file
+	  dialog from gtk 2.4
+
+	* [r100] trunk/setup.py: missed a version number
+
+	* [r97] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/gnome/revelation.desktop, trunk/src/lib/__init__.py,
+	  trunk/src/lib/data.py, trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/base.py,
+	  trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/datahandler/gpass.py,
+	  trunk/src/lib/datahandler/netrc.py,
+	  trunk/src/lib/datahandler/rvl.py,
+	  trunk/src/lib/datahandler/xhtml.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/entry.py, trunk/src/lib/io.py,
+	  trunk/src/lib/misc.py, trunk/src/lib/stock.py,
+	  trunk/src/lib/widget.py, trunk/src/revelation: bumped version
+	  number
+
+	* [r96] trunk/src/revelation: removed debug exception
+
+	* [r95] trunk/TODO, trunk/src/revelation: minor tweaks
+
+2004-08-29  Erik Grinaker <erikg@codepoet.no>
+
+	* [r94] trunk/ChangeLog, trunk/src/lib/datahandler/rvl.py,
+	  trunk/src/revelation: filetype for xml is not called just XML
+
+2004-08-28  Erik Grinaker <erikg@codepoet.no>
+
+	* [r93] trunk/ChangeLog, trunk/TODO, trunk/src/lib/data.py,
+	  trunk/src/lib/datahandler/xhtml.py: improved the xhtml exporter
+
+2004-08-27  Erik Grinaker <erikg@codepoet.no>
+
+	* [r92] trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/datahandler/gpass.py,
+	  trunk/src/lib/datahandler/rvl.py, trunk/src/lib/entry.py: fixed
+	  more entry/field bugs
+
+	* [r91] trunk/ChangeLog, trunk/src/lib/data.py,
+	  trunk/src/lib/datahandler/rvl.py: fixed a couple of entry
+	  subclass bugs
+
+	* [r90] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/xhtml.py: added an xhtml/css exporter
+
+2004-08-26  Erik Grinaker <erikg@codepoet.no>
+
+	* [r89] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/datahandler/gpass.py,
+	  trunk/src/lib/datahandler/netrc.py,
+	  trunk/src/lib/datahandler/rvl.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/entry.py: created Field subclasses for use instead
+	  of the field dict
+
+	* [r88] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/data.py, trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/datahandler/gpass.py,
+	  trunk/src/lib/datahandler/netrc.py,
+	  trunk/src/lib/datahandler/rvl.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/entry.py, trunk/src/lib/widget.py,
+	  trunk/src/revelation: created subclasses of Entry for the various
+	  entry types
+
+2004-08-25  Erik Grinaker <erikg@codepoet.no>
+
+	* [r85] trunk/ChangeLog, trunk/src/lib/dialog.py: added tooltips to
+	  launcher preferences
+
+	* [r84] trunk/ChangeLog, trunk/gnome/revelation.schemas: changed
+	  the default launchers
+
+	* [r83] trunk/src/lib/entry.py, trunk/src/lib/misc.py,
+	  trunk/src/revelation: fixed a few bugs in the substitution parser
+
+	* [r82] trunk/ChangeLog, trunk/src/lib/entry.py,
+	  trunk/src/lib/misc.py, trunk/src/revelation: added optional
+	  expansions to the launcher syntax
+
+2004-08-24  Erik Grinaker <erikg@codepoet.no>
+
+	* [r81] trunk/ChangeLog, trunk/src/lib/entry.py: changed some
+	  launcher substitution variables
+
+2004-08-23  Erik Grinaker <erikg@codepoet.no>
+
+	* [r80] trunk/ChangeLog, trunk/src/revelation: multiple entries can
+	  be launched
+
+	* [r79] trunk/src/revelation: the exception handler prints the
+	  traceback to stdout in addition to displaying a dialog
+
+	* [r78] trunk/ChangeLog, trunk/src/lib/dialog.py,
+	  trunk/src/lib/widget.py: added launcher command preferences
+
+	* [r77] trunk/ChangeLog, trunk/NEWS, trunk/src/revelation: changed
+	  entry accelerators
+
+	* [r76] trunk/TODO: updated TODO
+
+2004-08-12  Erik Grinaker <erikg@codepoet.no>
+
+	* [r75] trunk/src/lib/misc.py: added missing revelation module
+	  import in misc module
+
+	* [r74] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/dialog.py, trunk/src/lib/misc.py,
+	  trunk/src/lib/stock.py, trunk/src/revelation: added a password
+	  generator dialog
+
+2004-08-11  Erik Grinaker <erikg@codepoet.no>
+
+	* [r73] trunk/src/lib/widget.py, trunk/src/revelation: fixed a
+	  weird bonobo dock bug
+
+	* [r72] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/gnome/revelation.schemas, trunk/src/lib/data.py,
+	  trunk/src/lib/dialog.py, trunk/src/lib/widget.py,
+	  trunk/src/revelation: added a search toolbar
+
+	* [r71] trunk/ChangeLog, trunk/src/lib/dialog.py,
+	  trunk/src/lib/entry.py, trunk/src/lib/widget.py: minor code
+	  tweaks
+
+2004-08-10  Erik Grinaker <erikg@codepoet.no>
+
+	* [r70] trunk/ChangeLog, trunk/src/revelation: added handler for
+	  KeyboardInterrupt
+
+	* [r69] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/gnome/revelation.schemas, trunk/src/lib/data.py,
+	  trunk/src/lib/entry.py, trunk/src/lib/io.py,
+	  trunk/src/lib/stock.py, trunk/src/revelation: added initial
+	  launcher support
+
+	* [r68] trunk/ChangeLog, trunk/NEWS, trunk/src/lib/data.py,
+	  trunk/src/lib/misc.py, trunk/src/lib/widget.py: added
+	  config_get() and config_connect() functions
+
+	* [r67] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/dialog.py: fixed a bug causing entry descriptions
+	  not to be set when adding/updating entries
+
+	* [r66] trunk/ChangeLog, trunk/NEWS, trunk/TODO,
+	  trunk/src/lib/dialog.py, trunk/src/lib/io.py,
+	  trunk/src/lib/widget.py, trunk/src/revelation: display unhandled
+	  exceptions in a dialog
+
+2004-08-09  Erik Grinaker <erikg@codepoet.no>
+
+	* [r64] trunk/ChangeLog, trunk/NEWS,
+	  trunk/gnome/revelation.desktop, trunk/setup.py,
+	  trunk/src/lib/__init__.py, trunk/src/lib/data.py,
+	  trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/base.py,
+	  trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/datahandler/gpass.py,
+	  trunk/src/lib/datahandler/netrc.py,
+	  trunk/src/lib/datahandler/rvl.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/entry.py, trunk/src/lib/io.py,
+	  trunk/src/lib/misc.py, trunk/src/lib/stock.py,
+	  trunk/src/lib/widget.py, trunk/src/revelation: removed loading of
+	  druid module, and bumped version to 0.3.2
+
+2004-08-08  Erik Grinaker <erikg@codepoet.no>
+
+	* [r62] trunk/ChangeLog, trunk/NEWS: set release date
+
+	* [r61] trunk/ChangeLog, trunk/NEWS,
+	  trunk/gnome/revelation.schemas, trunk/src/lib/data.py,
+	  trunk/src/revelation: window position is stored on exit
+
+	* [r60] trunk/ChangeLog, trunk/src/lib/data.py,
+	  trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/datahandler/netrc.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/widget.py, trunk/src/revelation: fixed some bugs
+	  introduced during development
+
+	* [r59] trunk/ChangeLog: moved a changelog entry
+
+	* [r58] trunk/ChangeLog, trunk/src/lib/__init__.py,
+	  trunk/src/lib/ui.py, trunk/src/lib/widget.py,
+	  trunk/src/revelation: merged the ui module and the widget module
+
+2004-08-07  Erik Grinaker <erikg@codepoet.no>
+
+	* [r57] trunk/ChangeLog, trunk/TODO, trunk/src/lib/data.py,
+	  trunk/src/lib/datahandler/base.py,
+	  trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/datahandler/gpass.py,
+	  trunk/src/lib/datahandler/netrc.py,
+	  trunk/src/lib/datahandler/rvl.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/entry.py, trunk/src/lib/io.py,
+	  trunk/src/lib/misc.py, trunk/src/lib/ui.py, trunk/src/revelation:
+	  minor code cleanups
+
+2004-08-06  Erik Grinaker <erikg@codepoet.no>
+
+	* [r56] trunk/ChangeLog, trunk/gnome/revelation.desktop,
+	  trunk/setup.py, trunk/src/lib/__init__.py, trunk/src/lib/data.py,
+	  trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/base.py,
+	  trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/datahandler/gpass.py,
+	  trunk/src/lib/datahandler/netrc.py,
+	  trunk/src/lib/datahandler/rvl.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/entry.py, trunk/src/lib/io.py,
+	  trunk/src/lib/misc.py, trunk/src/lib/stock.py,
+	  trunk/src/lib/ui.py, trunk/src/lib/widget.py,
+	  trunk/src/revelation: bumped version number to 0.3.1
+
+	* [r55] trunk/ChangeLog, trunk/NEWS: updated NEWS file
+
+2004-08-03  Erik Grinaker <erikg@codepoet.no>
+
+	* [r54] trunk/src/lib/datahandler/gpass.py: removed loading of MD5
+	  module in gpass datahandler
+
+	* [r53] trunk/src/lib/datahandler/fpm.py: fpm datahandler didn't
+	  set update time of imported entries
+
+	* [r52] trunk/ChangeLog, trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/datahandler/gpass.py, trunk/src/lib/entry.py:
+	  finished gpass datahandler
+
+	* [r51] trunk/src/lib/data.py, trunk/src/lib/io.py,
+	  trunk/src/lib/widget.py, trunk/src/revelation: fixed some bugs
+	  introduced in recent changes
+
+	* [r50] trunk/ChangeLog, trunk/src/lib/dialog.py: Find dialog entry
+	  grabs focus after nomatch-dialog
+
+2004-08-02  Erik Grinaker <erikg@codepoet.no>
+
+	* [r49] trunk/TODO, trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/base.py,
+	  trunk/src/lib/datahandler/gpass.py: added prototype gpass
+	  datahandler
+
+	* [r48] trunk/AUTHORS, trunk/ChangeLog, trunk/INSTALL,
+	  trunk/README, trunk/TODO, trunk/setup.py, trunk/src/lib/data.py,
+	  trunk/src/lib/datahandler/rvl.py, trunk/src/lib/widget.py,
+	  trunk/src/revelation: small changes like cleanups and bugfixes
+
+2004-07-29  Erik Grinaker <erikg@codepoet.no>
+
+	* [r47] trunk/ChangeLog, trunk/src/lib/data.py,
+	  trunk/src/lib/dialog.py, trunk/src/lib/ui.py,
+	  trunk/src/revelation: moved file data into EntryStore class
+
+2004-07-28  Erik Grinaker <erikg@codepoet.no>
+
+	* [r46] trunk/ChangeLog, trunk/setup.py: removed gconf schema
+	  registration
+
+	* [r45] trunk/ChangeLog, trunk/src/lib/dialog.py,
+	  trunk/src/lib/entry.py, trunk/src/lib/ui.py,
+	  trunk/src/lib/widget.py: added widget generation methods to field
+	  objects
+
+	* [r44] trunk/ChangeLog, trunk/src/lib/dialog.py,
+	  trunk/src/revelation: added various password dialogs
+
+	* [r43] trunk/ChangeLog, trunk/src/lib/dialog.py,
+	  trunk/src/revelation: cleaned up dialog code
+
+2004-07-27  Erik Grinaker <erikg@codepoet.no>
+
+	* [r42] trunk/ChangeLog, trunk/setup.py, trunk/src/lib/data.py,
+	  trunk/src/lib/io.py, trunk/src/lib/widget.py,
+	  trunk/src/revelation: check and install configuration on startup
+
+	* [r41] trunk/ChangeLog, trunk/TODO, trunk/src/lib/data.py,
+	  trunk/src/lib/dialog.py, trunk/src/lib/entry.py,
+	  trunk/src/lib/misc.py, trunk/src/lib/stock.py,
+	  trunk/src/lib/ui.py, trunk/src/lib/widget.py,
+	  trunk/src/revelation: cleaned up widget code, and added
+	  docstrings
+
+	* [r40] trunk/ChangeLog, trunk/TODO, trunk/src/lib/data.py,
+	  trunk/src/lib/dialog.py, trunk/src/lib/widget.py,
+	  trunk/src/revelation: rewrote config handling
+
+2004-07-15  Erik Grinaker <erikg@codepoet.no>
+
+	* [r39] trunk/src/revelation: fixed missing data arg for toolbar
+	  callbacks
+
+	* [r38] trunk/ChangeLog, trunk/TODO, trunk/src/lib/ui.py,
+	  trunk/src/lib/widget.py, trunk/src/revelation: moved app ui code
+	  into main app class
+
+	* [r37] trunk/ChangeLog, trunk/TODO,
+	  trunk/gnome/revelation.schemas, trunk/src/lib/dialog.py,
+	  trunk/src/revelation: added preference for autosaving data on
+	  change
+
+	* [r36] trunk/ChangeLog, trunk/src/lib/dialog.py: set default
+	  account type to Generic
+
+2004-07-14  Erik Grinaker <erikg@codepoet.no>
+
+	* [r35] trunk/src/lib/io.py: set Id keyword on io.py
+
+	* [r34] trunk/ChangeLog, trunk/src/lib/druid.py: replaced the
+	  import/export druids with file selectors
+
+	* [r33] trunk/ChangeLog, trunk/TODO,
+	  trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/datahandler/netrc.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/druid.py, trunk/src/lib/io.py,
+	  trunk/src/revelation: cleaned up app datafile handling
+
+2004-07-10  Erik Grinaker <erikg@codepoet.no>
+
+	* [r32] trunk/ChangeLog, trunk/src/lib/__init__.py,
+	  trunk/src/lib/datafile.py, trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/base.py,
+	  trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/datahandler/netrc.py,
+	  trunk/src/lib/datahandler/rvl.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/druid.py, trunk/src/lib/io.py,
+	  trunk/src/revelation: rewrote data file handling
+
+2004-07-09  Erik Grinaker <erikg@codepoet.no>
+
+	* [r31] trunk/src/lib/data.py, trunk/src/lib/ui.py: minor cleanups
+	  öf the EntrySearch class
+
+	* [r30] trunk/src/lib/data.py: fixed a small bug in undo/redo
+
+	* [r29] trunk/ChangeLog, trunk/TODO, trunk/src/lib/data.py,
+	  trunk/src/lib/ui.py, trunk/src/revelation: cleaned up the
+	  undo/redo code
+
+2004-07-08  Erik Grinaker <erikg@codepoet.no>
+
+	* [r28] trunk/ChangeLog, trunk/TODO, trunk/src/lib/data.py,
+	  trunk/src/lib/ui.py, trunk/src/lib/widget.py,
+	  trunk/src/revelation: cleaned up the EntryStore code
+
+	* [r27] trunk/ChangeLog, trunk/src/lib/dialog.py: inactive ok
+	  button in password dialogs when missing data
+
+2004-06-30  Erik Grinaker <erikg@codepoet.no>
+
+	* [r26] trunk/ChangeLog, trunk/src/lib/dialog.py,
+	  trunk/src/lib/ui.py, trunk/src/revelation: file selectors and
+	  about dialog are set as transients for the main window
+
+2004-06-29  Erik Grinaker <erikg@codepoet.no>
+
+	* [r25] trunk/ChangeLog, trunk/TODO, trunk/src/lib/datafile.py,
+	  trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/netrc.py, trunk/src/lib/entry.py: added
+	  .netrc datahandler
+
+	* [r24] trunk/ChangeLog, trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/entry.py: updated fpm datahandler
+
+	* [r23] trunk/ChangeLog, trunk/src/lib/datahandler/rvl.py,
+	  trunk/src/lib/dialog.py, trunk/src/lib/ui.py,
+	  trunk/src/lib/widget.py, trunk/src/revelation: misc cleanups
+
+2004-06-22  Erik Grinaker <erikg@codepoet.no>
+
+	* [r22] trunk/src/lib/dialog.py, trunk/src/lib/entry.py,
+	  trunk/src/lib/ui.py, trunk/src/lib/widget.py: code cleanups in
+	  data routines
+
+	* [r21] trunk/ChangeLog, trunk/src/lib/data.py,
+	  trunk/src/lib/datahandler/rvl.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/druid.py, trunk/src/lib/entry.py,
+	  trunk/src/lib/ui.py, trunk/src/revelation: use Field objects
+	  instead of a dict
+
+	* [r20] trunk/ChangeLog, trunk/TODO, trunk/src/lib/data.py,
+	  trunk/src/lib/datahandler/rvl.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/entry.py, trunk/src/lib/ui.py,
+	  trunk/src/revelation: use Entry object instead of data dict
+
+2004-06-16  Erik Grinaker <erikg@codepoet.no>
+
+	* [r19] trunk/ChangeLog, trunk/src/lib/ui.py: fixed bug which broke
+	  TreeView.set_model()
+
+2004-06-11  Erik Grinaker <erikg@codepoet.no>
+
+	* [r18] trunk/ChangeLog, trunk/src/lib/dialog.py: dialogs
+	  subclassed from dialog.Dialog can be closed with the Escape key
+
+2004-06-10  Erik Grinaker <erikg@codepoet.no>
+
+	* [r17] trunk/ChangeLog, trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/dialog.py, trunk/src/lib/druid.py,
+	  trunk/src/lib/widget.py: implemented new FileEntry widget
+
+	* [r16] trunk/ChangeLog, trunk/src/lib/ui.py: fixed bug which
+	  placed tree directly in pane without a scrolledwindow
+
+2004-06-09  Erik Grinaker <erikg@codepoet.no>
+
+	* [r15] trunk/ChangeLog, trunk/src/lib/data.py,
+	  trunk/src/lib/ui.py, trunk/src/lib/widget.py,
+	  trunk/src/revelation: cleaned up widget and ui code
+
+	* [r14] trunk/ChangeLog, trunk/TODO,
+	  trunk/gnome/revelation.schemas, trunk/src/lib/ui.py,
+	  trunk/src/revelation: remember window-size and main pane position
+
+	* [r13] trunk/ChangeLog, trunk/src/lib/datafile.py: auto-create
+	  missing dirs when saving
+
+	* [r12] trunk/ChangeLog, trunk/src/lib/widget.py: fixed spin-button
+	  bug which made it impossible to update using the keyboard
+
+2004-06-06  Erik Grinaker <erikg@codepoet.no>
+
+	* [r11] trunk/src/lib/__init__.py, trunk/src/lib/data.py,
+	  trunk/src/lib/datafile.py, trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/base.py,
+	  trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/datahandler/rvl.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/druid.py, trunk/src/lib/entry.py,
+	  trunk/src/lib/misc.py, trunk/src/lib/stock.py,
+	  trunk/src/lib/ui.py, trunk/src/lib/widget.py,
+	  trunk/src/revelation: moved $ line in file comment headings to
+	  below home site url
+
+	* [r10] trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/base.py,
+	  trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/datahandler/rvl.py: added Id prop to datahandlers
+
+	* [r9] trunk/ChangeLog, trunk/TODO, trunk/setup.py,
+	  trunk/src/lib/__init__.py, trunk/src/lib/datafile.py,
+	  trunk/src/lib/datahandler, trunk/src/lib/datahandler/__init__.py,
+	  trunk/src/lib/datahandler/base.py,
+	  trunk/src/lib/datahandler/fpm.py,
+	  trunk/src/lib/datahandler/rvl.py, trunk/src/lib/druid.py,
+	  trunk/src/revelation: split out data handlers into separate
+	  module
+
+2004-06-03  Erik Grinaker <erikg@codepoet.no>
+
+	* [r8] trunk/ChangeLog, trunk/src/lib/ui.py: only show scrollbar in
+	  main windows when needed
+
+2004-05-24  Erik Grinaker <erikg@codepoet.no>
+
+	* [r7] trunk/TODO: updated TODO
+
+2004-05-09  Erik Grinaker <erikg@codepoet.no>
+
+	* [r6] trunk/TODO: another test-commit
+
+	* [r5] trunk/TODO: just a commit test
+
+	* [r4] trunk/ChangeLog, trunk/setup.py, trunk/src/lib/__init__.py,
+	  trunk/src/lib/data.py, trunk/src/lib/datafile.py,
+	  trunk/src/lib/dialog.py, trunk/src/lib/druid.py,
+	  trunk/src/lib/entry.py, trunk/src/lib/misc.py,
+	  trunk/src/lib/stock.py, trunk/src/lib/ui.py,
+	  trunk/src/lib/widget.py, trunk/src/revelation: changed
+	  wired-networks.net to codepoet.no, and set Id keywords
+
+2004-04-30  
+
+	* [r3] trunk/ChangeLog, trunk/src/lib/ui.py,
+	  trunk/src/lib/widget.py: fixed a bug causing unpredicable faults
+	  when displaying fields containing &
+
+	* [r2] trunk/ChangeLog, trunk/TODO, trunk/src/revelation: bugfix:
+	  file selector was opened when saving file from quit confirmation
+	  dialog
+
+2004-04-26  
+
+	* [r1] branches, tags, trunk, trunk/AUTHORS, trunk/COPYING,
+	  trunk/ChangeLog, trunk/INSTALL, trunk/NEWS, trunk/README,
+	  trunk/TODO, trunk/gnome, trunk/gnome/revelation.desktop,
+	  trunk/gnome/revelation.schemas, trunk/pixmaps,
+	  trunk/pixmaps/account-creditcard.png,
+	  trunk/pixmaps/account-cryptokey.png,
+	  trunk/pixmaps/account-database.png,
+	  trunk/pixmaps/account-door.png, trunk/pixmaps/account-email.png,
+	  trunk/pixmaps/account-ftp.png, trunk/pixmaps/account-generic.png,
+	  trunk/pixmaps/account-phone.png, trunk/pixmaps/account-shell.png,
+	  trunk/pixmaps/account-website.png, trunk/pixmaps/folder-open.png,
+	  trunk/pixmaps/folder.png, trunk/pixmaps/password.png,
+	  trunk/pixmaps/revelation-16x16.png, trunk/pixmaps/revelation.png,
+	  trunk/setup.py, trunk/src, trunk/src/lib,
+	  trunk/src/lib/__init__.py, trunk/src/lib/data.py,
+	  trunk/src/lib/datafile.py, trunk/src/lib/dialog.py,
+	  trunk/src/lib/druid.py, trunk/src/lib/entry.py,
+	  trunk/src/lib/misc.py, trunk/src/lib/stock.py,
+	  trunk/src/lib/ui.py, trunk/src/lib/widget.py,
+	  trunk/src/revelation: initial import
+
